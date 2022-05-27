@@ -41,20 +41,20 @@ Graduation w/ Distinction
 
 ## Employment
 
-#### Northwestern University
+#### Northwestern University\
 Instructor, Northwestern English Language Programs (ELP)\
 Ph.D. Researcher, Northwestern Linguistics
 `2022 - Present`
 
-#### University of Wisconsin-Madison
+#### University of Wisconsin-Madison\
 Researcher (Russian, Natural Language Processing), University of Wisconsin Law School
 `2017 - 2019`
 
-#### RWTH-Aachen 
+#### RWTH-Aachen\
 Research Intern (Natural Language Processing), RWTH-Aachen Cybernetics Lab
 `2018`
 
-## Awards
+## Awards\
 `2021`
 __Northwestern Data Science Fellow__
 
@@ -67,7 +67,7 @@ __WISCIENCE Summer Research Scholarship, UW-Madison__
 
 ## Research and Writing
 
-### Conference Proceedings
+### Conference Proceedings\
 `2021`
 @Koltai2021
 
@@ -84,33 +84,33 @@ __WISCIENCE Summer Research Scholarship, UW-Madison__
 
 ## Teaching
 
-### Northwestern University
+### Northwestern University\
 
 LING 480-0 American Academic Culture for Non-Native speakers of English (Summer '22)
 
-### Other
+### Other\
 Private ESL tutoring for undergraduate-graduate level English
 
 ## Skills
 
 ### Languages
 
-#### Fluent
+#### Fluent\
 English, Mandarin Chinese
 
-#### Actively Studying
+#### Actively Studying\
 Japanese, Korean, Spanish
 
-#### Previously Learned
+#### Previously Learned\
 German (C1-C2 as of 2020)\
 Russian (C1 as of 2018)\
 Italian (Heritage)\
 Spanish (High School)
 
-#### Other
+#### Other\
 For non-listed languages, it is possible I may know songs, random smatterings, or grammatical facts
 
-### Certifications
+### Certifications\
 `2022`
 __Teaching English as a Foreign Language, International TEFL Academy__\
 Training Qualifications UK (TQUK), Level 5 (RQF)\
