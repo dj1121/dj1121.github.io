@@ -84,5 +84,23 @@ __WISCIENCE Summer Research Scholarship, UW-Madison__
 
 LING 480-0 American Academic Culture for Non-Native speakers of English (Summer '22)
 
-### Other
+### Other Teaching
 Private ESL tutoring for undergraduate-graduate level English
+
+## Skills
+### Languages
+Fluent: English, Mandarin Chinese
+
+Actively Studying: Japanese, Korean, Spanish
+
+Previously Learned: German (C1 as of 2018), Russian (C1 as of 2018), Italian (Conversational/Heritage)
+
+Else: For non-listed languages, it is possible I may know songs, random smatterings, or grammatical facts
+
+### Certifications
+`2022`
+__Teaching English as a Foreign Language, International TEFL Academy__
+- Training Qualifications UK (TQUK), Level 5 (RQF)
+- 120 course hours
+- 20 hours of in-person practicum
+
