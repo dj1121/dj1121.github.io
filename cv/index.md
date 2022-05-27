@@ -1,91 +1,88 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: Devin Johnson's CV
+css:
+    - file: media/devin-screen.css
+      media: screen
+    - file: media/devin-print.css
+      media: print
+bibliography: pubs.yaml
+csl: chicago-syllabus.csl
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+
+# Devin Johnson
+Linguist, ESL Instructor
 
 <div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
+<a href="mailto:devinjohnson@u.northwestern.edu">devinjohnson2026@u.northwestern.edu</a>
+| <a href="dj1121.github.io">dj1121.github.io</a>
 </div>
 
 
-## Currently
+## Employment
+#### Northwestern University
+- Instructor, Ling 480 (American Academic Culture for Non-Native speakers of English)
+`2022 - Present`
 
-Standing on the shoulders of giants
+#### University of Wisconsin-Madison
+- Researcher (Russian, NLP), University of Wisconsin Law School
+`2017 - 2019`
 
-### Specialized in
-
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
-
-
-### Research interests
-
-Cooling, power series, optics, alchemy, planetary motions, apples.
+#### RWTH-Aachen 
+- Cybernetics Lab Research Intern (NLP)
+`2018`
 
 
 ## Education
+`2021-Present`
+__Ph.D., Northwestern University__
+- Formal Syntax, Psycholinguistics, Acquisition, East Asian Languages
+- Advisor: Masaya Yoshida
 
-`1654-1660`
-__The King's School, Grantham.__
+`2019-2021`
+__M.S.., University of Washington__
+- Computational Linguistics
+- Thesis: "Semantic Universals in Bayesian Learning of Quantifiers" \
+- Advisor: Shane Steinert-Threlkeld
 
-`June 1661 - now`
-__Trinity College, Cambridge__
+`2020`
+__Massachusetts Institute of Technology__
+- Brains Minds and Machines Summer Course
 
-- Sizar
-
-`1667 - death`
-__Trinity College, Cambridge__
-
-- Fellow
-
+`2015-2019`
+__B.S., University of Wisconsin-Madison__
+- Linguistics and Computer Science
+- Phi Beta Kappa, Graduation w/ Distinction
 
 
 ## Awards
+`2021`
+__Northwestern Data Science Fellow__
 
-`2012`
-President, *Royal Society*, London, UK
+`2018`
+__Phi Beta Kappa__
 
-Associate, *French Academy of Science*, Paris, France
-
+`2017`
+__WISCIENCE Summer Research Scholarship, UW-Madison__
 
 
 ## Publications
 
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-
 ### Journals
 
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
+### Conference Proceedings
 
-`1669`
-Lectiones opticæ.
-
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
+`2020`
+@johnsonNumerical2020
 
 
-## Occupation
+## Talks
 
-`1600`
-__Royal Mint__, London
+## Teaching
 
-- Warden
-- Minted coins
+### Northwestern University
 
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
+LING 480-0 American Academic Culture for Non-Native speakers of English (Summer '22)
 
-
-
-<!-- ### Footer
-
-Last updated: May 2013 -->
-
-
+### Other
+Private ESL tutoring for undergraduate-graduate level English
