@@ -15,7 +15,7 @@ Linguist, ESL Instructor
 
 <div id="webaddress">
 <a href="mailto:devinjohnson@u.northwestern.edu">devinjohnson2026@u.northwestern.edu</a>
-| <a href="dj1121.github.io">dj1121.github.io</a>
+| <a href="https://dj1121.github.io/">dj1121.github.io</a>
 </div>
 
 ## Education
