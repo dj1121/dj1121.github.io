@@ -1,0 +1,21 @@
+---
+references:
+- id: johnsonetal2020
+  author:
+    - family: Johnson
+      given: Devin
+    - family: Mak
+      given: Denise
+    - family: Barker
+      given: Drew
+    - family: Loessberg-Zahl
+      given: Lexi
+  citation-key: johnsonNumerical2020
+  container-title: >-
+    Proceedings of the Third BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP (EMNLP 2020)
+  issued:
+    - year: 2020
+  title: Probing for Multilingual Numerical Understanding in Transformer-Based Language Models
+  type: paper-conference
+  URL: https://arxiv.org/abs/2010.06666
+...
