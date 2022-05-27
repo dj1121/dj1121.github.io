@@ -10,7 +10,7 @@ bibliography: pubs.yaml
 csl: chicago-syllabus.csl
 ---
 
-# Devin Johnson
+# Devin Johnson (張旭堯)
 Linguist, ESL Instructor
 
 <div id="webaddress">
@@ -18,42 +18,40 @@ Linguist, ESL Instructor
 | <a href="dj1121.github.io">dj1121.github.io</a>
 </div>
 
+## Education
+`2021-Present`
+__Ph.D., Linguistics, Northwestern University__\
+Research: Syntax, Psycholinguistics, Acquisition, East Asian Languages\
+Advisor: Masaya Yoshida
+
+`2019-2021`
+__M.S., Computational Linguistics, University of Washington__\
+Research: Semantics, Computation, Acquisition\
+Advisor: Shane Steinert-Threlkeld\
+Thesis: "Semantic Universals in Bayesian Learning of Quantifiers"
+
+`2020`
+__Massachusetts Institute of Technology__\
+Brains Minds and Machines Summer Course
+
+`2015-2019`
+__B.S., Linguistics and Computer Science, University of Wisconsin-Madison__\
+Phi Beta Kappa Honor Society\
+Graduation w/ Distinction
 
 ## Employment
 #### Northwestern University
-- Instructor, Ling 480 (American Academic Culture for Non-Native speakers of English)
+Instructor, Northwestern English Language Programs (ELP)\
+Ph.D. Researcher, Northwestern Linguistics
 `2022 - Present`
 
 #### University of Wisconsin-Madison
-- Researcher (Russian, NLP), University of Wisconsin Law School
+Researcher (Russian, Natural Language Processing), University of Wisconsin Law School
 `2017 - 2019`
 
 #### RWTH-Aachen 
-- Cybernetics Lab Research Intern (NLP)
+Research Intern (Natural Language Processing), RWTH-Aachen Cybernetics Lab
 `2018`
-
-
-## Education
-`2021-Present`
-__Ph.D., Northwestern University__
-- Formal Syntax, Psycholinguistics, Acquisition, East Asian Languages
-- Advisor: Masaya Yoshida
-
-`2019-2021`
-__M.S.., University of Washington__
-- Computational Linguistics
-- Thesis: "Semantic Universals in Bayesian Learning of Quantifiers" \
-- Advisor: Shane Steinert-Threlkeld
-
-`2020`
-__Massachusetts Institute of Technology__
-- Brains Minds and Machines Summer Course
-
-`2015-2019`
-__B.S., University of Wisconsin-Madison__
-- Linguistics and Computer Science
-- Phi Beta Kappa, Graduation w/ Distinction
-
 
 ## Awards
 `2021`
@@ -66,15 +64,20 @@ __Phi Beta Kappa__
 __WISCIENCE Summer Research Scholarship, UW-Madison__
 
 
-## Publications
+## Research and Writing
+
+### Conference Proceedings
+`2021`
+@Koltai2021
+
+`2020`
+@Johnson2020
 
 ### Journals
 
-### Conference Proceedings
-
-`2020`
-@johnsonNumerical2020
-
+### Others
+`2021`
+@Johnson2021
 
 ## Talks
 
@@ -84,23 +87,30 @@ __WISCIENCE Summer Research Scholarship, UW-Madison__
 
 LING 480-0 American Academic Culture for Non-Native speakers of English (Summer '22)
 
-### Other Teaching
+### Other
 Private ESL tutoring for undergraduate-graduate level English
 
 ## Skills
 ### Languages
-Fluent: English, Mandarin Chinese
+#### Fluent
+English, Mandarin Chinese
 
-Actively Studying: Japanese, Korean, Spanish
+#### Actively Studying
+Japanese, Korean, Spanish
 
-Previously Learned: German (C1 as of 2018), Russian (C1 as of 2018), Italian (Conversational/Heritage)
+#### Previously Learned
+German (C1-C2 as of 2020)\
+Russian (C1 as of 2018)\
+Italian (Heritage)\
+Spanish (High School)
 
-Else: For non-listed languages, it is possible I may know songs, random smatterings, or grammatical facts
+#### Other
+For non-listed languages, it is possible I may know songs, random smatterings, or grammatical facts
 
 ### Certifications
 `2022`
-__Teaching English as a Foreign Language, International TEFL Academy__
-- Training Qualifications UK (TQUK), Level 5 (RQF)
-- 120 course hours
-- 20 hours of in-person practicum
+__Teaching English as a Foreign Language, International TEFL Academy__\
+Training Qualifications UK (TQUK), Level 5 (RQF)\
+120 course hours\
+20 hours of in-person practicum
 
