@@ -107,9 +107,6 @@ Russian (C1 as of 2018)\
 Italian (Heritage)\
 Spanish (High School)
 
-#### Other\
-For non-listed languages, it is possible I may know songs, random smatterings, or grammatical facts
-
 ### Certifications\
 `2022`
 __Teaching English as a Foreign Language, International TEFL Academy__\
