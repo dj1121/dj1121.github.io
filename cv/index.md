@@ -11,7 +11,7 @@ csl: chicago-syllabus.csl
 ---
 
 # Devin Johnson (張旭堯)
-Linguist, ESL Instructor
+Linguist, ESL/EFL Instructor
 
 <div id="webaddress">
 <a href="mailto:devinjohnson@u.northwestern.edu">devinjohnson2026@u.northwestern.edu</a>
@@ -89,7 +89,7 @@ __WISCIENCE Summer Research Scholarship, UW-Madison__
 LING 480-0 American Academic Culture for Non-Native speakers of English (Summer '22)
 
 ### Other\
-Private ESL tutoring for undergraduate-graduate level English
+Private ESL/EFL tutoring for undergraduate-graduate level English
 
 ## Skills
 
