@@ -44,7 +44,7 @@ Graduation w/ Distinction
 #### Northwestern University\
 Instructor, Northwestern English Language Programs (ELP)\
 Ph.D. Researcher, Northwestern Linguistics
-`2022 - Present`
+`2021 - Present`
 
 #### University of Wisconsin-Madison\
 Researcher (Russian, Natural Language Processing), University of Wisconsin Law School
