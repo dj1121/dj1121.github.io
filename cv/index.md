@@ -40,6 +40,7 @@ Phi Beta Kappa Honor Society\
 Graduation w/ Distinction
 
 ## Employment
+
 #### Northwestern University
 Instructor, Northwestern English Language Programs (ELP)\
 Ph.D. Researcher, Northwestern Linguistics
@@ -91,7 +92,9 @@ LING 480-0 American Academic Culture for Non-Native speakers of English (Summer 
 Private ESL tutoring for undergraduate-graduate level English
 
 ## Skills
+
 ### Languages
+
 #### Fluent
 English, Mandarin Chinese
 
