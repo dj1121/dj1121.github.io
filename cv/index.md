@@ -99,7 +99,7 @@ Private ESL/EFL tutoring for undergraduate-graduate level English
 English, Mandarin Chinese
 
 #### Actively Studying\
-Japanese, Korean, Spanish
+Japanese, Korean
 
 #### Previously Learned\
 German (C1-C2 as of 2020)\
