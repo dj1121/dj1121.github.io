@@ -95,11 +95,11 @@ Private ESL/EFL tutoring for undergraduate-graduate level English
 
 ### Languages
 
-#### Currently Fluent\
+#### Fluent\
 English, Mandarin Chinese
 
-#### Actively Studying\
-Japanese, Korean
+#### Studying\
+Japanese
 
 #### Previously Learned\
 German (C1-C2 as of 2020)\
