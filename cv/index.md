@@ -44,7 +44,6 @@ Russian Flagship Program, German House
 
 #### Northwestern University\
 Instructor, Northwestern English Language Programs (ELP)\
-Ph.D. Researcher, Northwestern Linguistics
 `2021 - Present`
 
 #### University of Wisconsin-Madison\
@@ -83,7 +82,7 @@ __WISCIENCE Summer Research Scholarship, UW-Madison__
 
 ## Talks
 
-## Teaching
+## Courses Taught
 
 ### Northwestern University\
 
