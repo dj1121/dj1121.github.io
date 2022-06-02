@@ -96,16 +96,16 @@ Private ESL/EFL tutoring for undergraduate-graduate level English
 ### Languages
 
 #### Fluent\
-English, Mandarin Chinese
+English\
+Mandarin Chinese\
+German
+
+#### Conversational\
+Italian (Heritage)\
+Russian (C1 as of 2018)\
 
 #### Studying\
 Japanese
-
-#### Previously Learned\
-German (C1-C2 as of 2020)\
-Russian (C1 as of 2018)\
-Italian (Heritage)\
-Spanish (High School)
 
 ### Certifications\
 `2022`
