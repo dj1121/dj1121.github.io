@@ -101,8 +101,8 @@ Mandarin Chinese\
 German
 
 #### Conversational\
-Italian (Heritage)\
-Russian (C1 as of 2018)\
+Italian\
+Russian\
 
 #### Studying\
 Japanese
