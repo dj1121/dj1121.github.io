@@ -37,7 +37,8 @@ Brains Minds and Machines Summer Course
 `2015-2019`
 __B.S., Linguistics and Computer Science, University of Wisconsin-Madison__\
 Phi Beta Kappa Honor Society\
-Graduation w/ Distinction
+Graduation w/ Distinction\
+Russian Flagship Program, German House
 
 ## Employment
 
