@@ -95,7 +95,7 @@ Private ESL/EFL tutoring for undergraduate-graduate level English
 
 ### Languages
 
-#### Fluent\
+#### Professional\
 English\
 Mandarin Chinese\
 German
