@@ -86,7 +86,13 @@ __WISCIENCE Summer Research Scholarship, UW-Madison__
 
 ### Northwestern University\
 
-LING 480-0 American Academic Culture for Non-Native speakers of English (Summer '22)
+#### Instructor\
+LING 480: American Academic Culture for Non-Native speakers of English (Summer '22)
+
+#### Teaching Assistant
+LING 342: Structure of Various Languages - Japanese (Fall '22)\
+TGS 509: Foundations of American English and Academic Culture (Summer '22)
+
 
 ### Other\
 Private ESL/EFL tutoring for undergraduate-graduate level English
@@ -98,11 +104,12 @@ Private ESL/EFL tutoring for undergraduate-graduate level English
 #### Professional\
 English\
 Mandarin Chinese\
-German
+
 
 #### Conversational\
 Italian\
 Russian\
+German
 
 #### Studying\
 Japanese
