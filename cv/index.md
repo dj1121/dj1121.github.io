@@ -93,14 +93,14 @@ LING 480: American Academic Culture for Non-Native speakers of English (Summer '
 LING 342: Structure of Various Languages - Japanese (Fall '22)\
 TGS 509: Foundations of American English and Academic Culture (Summer '22)
 
-### Other\
-Private ESL/EFL tutoring for undergraduate-graduate level English
-
 ### University of Washington\
 
 #### Teaching Assistant
 LING 570: Shallow Processing Techniques For Natural Language Processing (Fall '20)\
 CLMS Placement Test (Grading)
+
+### Other\
+Private ESL/EFL tutoring for undergraduate-graduate level English
 
 ## Skills
 
