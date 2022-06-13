@@ -106,18 +106,17 @@ Private ESL/EFL tutoring for undergraduate-graduate level English
 
 ### Languages
 
-#### Professional\
+#### Main\
 English\
 Mandarin Chinese\
+Japanese
 
-
-#### Conversational\
+#### Side\
 Italian\
 Russian\
 German
 
-#### Studying\
-Japanese
+
 
 ### Certifications\
 `2022`
