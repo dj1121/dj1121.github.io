@@ -1,0 +1,1430 @@
+(window["canvasWebpackJsonp"]=window["canvasWebpackJsonp"]||[]).push([[73],{"2l0H":function(t,e,i){"use strict"
+var a=i("3O+N")
+var n=i.n(a)
+i("HGxv")
+i("BGrI")
+var s=n.a.default
+var o=s.template,r=s.templates=s.templates||{}
+var l="/work/canvas-deploy/generated/ui/shared/outcomes/jst/browser"
+r[l]=o((function(t,e,i,a,n){this.compilerInfo=[4,">= 1.0.0"]
+i=this.merge(i,t.helpers)
+n=n||{}
+var s,o="",r=i.helperMissing,l=this.escapeExpression,c=this
+function u(t,e){var a,n,s,o=""
+o+='\n  <div class="toolbar outcomes-toolbar">\n    <button class="go_back ui-button ui-widget ui-state-default ui-corner-all" style="display:none">\n      '+l((n=i.t||t&&t.t,s={hash:{i18n_inferred_key:true},data:e},n?n.call(t,"back_2900f52a","Back",s):r.call(t,"t","back_2900f52a","Back",s)))+"\n    </button>\n\n    "
+a=i["if"].call(t,t&&t.canManageOutcomes,{hash:{},inverse:c.noop,fn:c.program(2,d,e),data:e});(a||0===a)&&(o+=a)
+o+="\n  </div>\n  "
+return o}function d(t,e){var a,n,s,o=""
+o+='\n    <button class="add_outcome_link ui-button ui-widget ui-state-default ui-corner-all" aria-label="'+l((n=i.t||t&&t.t,s={hash:{i18n_inferred_key:true},data:e},n?n.call(t,"add_a_new_outcome_cbdbe96c","Add a New Outcome",s):r.call(t,"t","add_a_new_outcome_cbdbe96c","Add a New Outcome",s)))+'">\n      <i class="icon-plus"></i>\n      <span class="ui-button-text" aria-hidden="true">'+l((n=i.t||t&&t.t,s={hash:{i18n_inferred_key:true},data:e},n?n.call(t,"outcome_da397d20","Outcome",s):r.call(t,"t","outcome_da397d20","Outcome",s)))+'</span>\n    </button>\n    <button class="add_outcome_group ui-button ui-widget ui-state-default ui-corner-all" aria-label="'+l((n=i.t||t&&t.t,s={hash:{i18n_inferred_key:true},data:e},n?n.call(t,"add_a_new_outcome_group_e3fab2fc","Add a New Outcome Group",s):r.call(t,"t","add_a_new_outcome_group_e3fab2fc","Add a New Outcome Group",s)))+'">\n      <i class="icon-plus"></i>\n      <span class="ui-button-text" aria-hidden="true">'+l((n=i.t||t&&t.t,s={hash:{i18n_inferred_key:true},data:e},n?n.call(t,"group_a8f5ed9c","Group",s):r.call(t,"t","group_a8f5ed9c","Group",s)))+"</span>\n    </button>\n    "
+a=i["if"].call(t,t&&t.canImportOutcomes,{hash:{},inverse:c.noop,fn:c.program(3,h,e),data:e});(a||0===a)&&(o+=a)
+o+='\n    <button class="find_outcome ui-button ui-widget ui-state-default ui-corner-all" aria-label="'+l((n=i.t||t&&t.t,s={hash:{i18n_inferred_key:true},data:e},n?n.call(t,"find_an_outcome_919328e6","Find an Outcome",s):r.call(t,"t","find_an_outcome_919328e6","Find an Outcome",s)))+'">\n      <i class="icon-search"></i>\n      <span class="ui-button-text" aria-hidden="true">'+l((n=i.t||t&&t.t,s={hash:{i18n_inferred_key:true},data:e},n?n.call(t,"find_8d605019","Find",s):r.call(t,"t","find_8d605019","Find",s)))+"</span>\n    </button>\n    "
+return o}function h(t,e){var a,n,s=""
+s+='\n      <button class="import_outcomes ui-button ui-widget ui-state-default ui-corner-all" aria-label="'+l((a=i.t||t&&t.t,n={hash:{i18n_inferred_key:true},data:e},a?a.call(t,"import_a_set_of_outcomes_6b782192","Import a set of Outcomes",n):r.call(t,"t","import_a_set_of_outcomes_6b782192","Import a set of Outcomes",n)))+'">\n        <i class="icon-upload"></i>\n        <span class="ui-button-text" aria-hidden="true">'+l((a=i.t||t&&t.t,n={hash:{i18n_inferred_key:true},data:e},a?a.call(t,"import_1b31507","Import",n):r.call(t,"t","import_1b31507","Import",n)))+"</span>\n      </button>\n    "
+return s}o+='<div class="outcomes-browser content-box">\n\n  '
+s=i.unless.call(e,e&&e.skipToolbar,{hash:{},inverse:c.noop,fn:c.program(1,u,n),data:n});(s||0===s)&&(o+=s)
+o+='\n\n\n\n  <div class="outcomes-main">\n    <div class="outcomes-sidebar">\n      <div class="wrapper"></div>\n    </div>\n    <div class="outcomes-content">\n    </div>\n  </div>\n</div>\n'
+return o}))
+e["a"]=r[l]},"40OP":function(t,e,i){"use strict"
+i.d(e,"a",(function(){return N}))
+var a=i("HGxv")
+var n=i("ouhR")
+var s=i.n(n)
+var o=i("Y/W1")
+var r=i.n(o)
+var l=i("mX+G")
+var c=i.n(l)
+var u=i("A5yp")
+var d=i("iM/W")
+var h=i("gI0r")
+var p=i("szPd")
+var m=i("7hHL")
+var f=i("TnsN")
+var _=function(t,e){for(var i in e)g.call(e,i)&&(t[i]=e[i])
+function a(){this.constructor=t}a.prototype=e.prototype
+t.prototype=new a
+t.__super__=e.prototype
+return t},g={}.hasOwnProperty
+var v=function(t){_(e,t)
+function e(){return e.__super__.constructor.apply(this,arguments)}e.prototype.model=d["a"]
+return e}(f["a"])
+i("oa+I")
+class y extends c.a.View{static initClass(){this.prototype.tagName="li"
+this.prototype.attributes={tabindex:-1}
+this.prototype.events={click:"triggerSelect",keydown:"onKeydown",focus:"onFocus"}
+this.prototype.keyCodes={13:"Action",32:"Action",37:"LeftArrow",38:"UpArrow",39:"RightArrow",40:"DownArrow"}}initialize(t){super.initialize(...arguments)
+this.readOnly=t.readOnly
+this.dir=t.dir
+return this.attachEvents()}attachEvents(){this.model.on("change:title",this.updateTitle,this)
+this.model.on("remove",this.remove,this)
+return this.model.on("select",this.triggerSelect,this)}triggerSelect(t){t&&t.preventDefault()
+this.trigger("select",this)
+return this.select()}onKeydown(t){const e=s()(t.target)
+const i=`on${this.keyCodes[t.keyCode]}Key`
+if(this[i])return this[i].call(this,t,e)&&t.preventDefault()}onUpArrowKey(t,e){return e.prev().focus()}onDownArrowKey(t,e){return e.next().focus()}onLeftArrowKey(t,e){if(!(e.parent().prev().length>0))return
+return this.$el.parent().prev().find("[aria-expanded=true]").click().attr("aria-expanded",false).attr("tabindex",0).focus()}onActionKey(t,e){return e.hasClass("outcome-group")?this.onRightArrowKey(t,e):this.triggerSelect()}onFocus(t){const e=s()(t.target)
+e.parents(".wrapper:first").find("[tabindex=0]").attr("tabindex",-1)
+return e.attr("tabindex",0)}makeFocusable(){this.$el.parent().find("[tabindex=0]").attr("tabindex",-1)
+return this.$el.attr("tabindex",0)}select(){this.makeFocusable()
+return this.$el.addClass("selected")}unSelect(){return this.$el.removeClass("selected")}remove(){this.model.off("change:title",this.updateTitle,this)
+this.model.off("remove",this.remove,this)
+this.model.off("select",this.triggerSelect,this)
+return super.remove(...arguments)}updateTitle(){this.$("span").text(this.model.get("title"))
+return this.$("a").attr("title",Object(h["a"])(this.model.get("title")))}render(){this.readOnly||this.initDraggable()
+this.$el.data("view",this)
+return this}initDraggable(){return this.$el.draggable({scope:"outcomes",containment:".outcomes-sidebar",opacity:.7,helper:"clone",revert:"invalid",scroll:false,drag(t,e){const i=s()(this).data("draggable")
+const a=i.options
+let n=false
+const o=i.relative_container
+const r=o.offset().left
+const l=o.width()
+t.pageX-r<a.scrollSensitivity?o[0].scrollLeft=n=o[0].scrollLeft-a.scrollSpeed:r+l-t.pageX<a.scrollSensitivity&&(o[0].scrollLeft=n=o[0].scrollLeft+a.scrollSpeed)
+if(false!==n&&s.a.ui.ddmanager&&!a.dropBehaviour)return s.a.ui.ddmanager.prepareOffsets(i,t)}})}}y.initClass()
+i("sXof")
+class b extends y{static initClass(){this.prototype.className="outcome-group"
+this.prototype.attributes={...this.attributes,"aria-expanded":false}}onRightArrowKey(t,e){e.attr("aria-expanded",true).attr("tabindex",-1)
+this.triggerSelect()
+return setTimeout(()=>e.parent().next().find("li[tabindex=0]").focus(),1e3)}initDroppable(){return this.$el.droppable({scope:"outcomes",hoverClass:"droppable",greedy:true,drop:(t,e)=>{const{model:i}=e.draggable.data("view")
+const a=i instanceof u["a"]?i.outcomeGroup:i
+if(a.id===this.model.id)return
+const n=this.dir.sidebar._findLastDir()
+this.triggerSelect()
+const o=new s.a.Deferred
+this.dir.$el.disableWhileLoading(o)
+return this.dir.sidebar.dirForGroup(this.model).promise().done(t=>t.moveModelHere(i,n).done(()=>o.resolve()))}})}render(){this.$el.attr("data-id",this.model.get("id"))
+this.$el.html(`<a href="#" class="ellipsis" title="${Object(h["a"])(this.model.get("title"))}">\n<i class="icon-folder"></i>\n<span>${Object(h["a"])(this.model.get("title"))}</span>\n</a>`)
+this.initDroppable()
+return super.render(...arguments)}}b.initClass()
+class w extends y{render(){this.$el.attr("data-id",this.model.get("id"))
+this.$el.html(`<a href="#" class="ellipsis" title="${Object(h["a"])(this.model.get("title"))}">\n<i class="icon-outcomes" aria-hidden="true"></i>\n<span>${Object(h["a"])(this.model.get("title"))}</span>\n</a>`)
+return super.render(...arguments)}}w.prototype.className="outcome-link"
+var x=i("XKWA")
+i("E7jo")
+i("r2Yr")
+const O=Object(a["useScope"])("OutcomesDirectoryView")
+class S extends p["a"]{static initClass(){this.prototype.tagName="ul"
+this.prototype.className="outcome-level"}initialize(t){this.inFindDialog=t.inFindDialog
+this.readOnly=t.readOnly
+this.parent=t.parent
+const e=t.outcomeGroup.attributes.title
+const i="Listing of child outcomes for "+e
+this.$el.attr("aria-label",i)
+this.needsReset=false
+if(this.outcomeGroup=t.outcomeGroup){if(!this.groups){this.groups=new v
+this.groups.url=this.outcomeGroup.get("subgroups_url")}this.groups.on("add reset",this.reset,this)
+this.groups.on("remove",this.removeGroup,this)
+this.groups.on("fetched:last",this.fetchOutcomes,this)
+if(!this.outcomes){this.outcomes=new m["a"]
+this.outcomes.url=this.outcomeGroup.get("outcomes_url")+"?outcome_style=full"}this.outcomes.on("add remove reset",this.reset,this)}this.collection=this.groups
+this.paginationScrollContainer=this.$el
+super.initialize(t)
+this.loadDfd=s.a.Deferred()
+if(this.outcomeGroup){let t
+this.$el.disableWhileLoading(t=this.groups.fetch())}if(t.selectFirstItem)return this.loadDfd.done(this.selectFirstOutcome.bind(this))}initDroppable(){return this.$el.droppable({scope:"outcomes",hoverClass:"outcome-level-hover",drop:(t,e)=>{if(e.draggable.parent().get(0)===t.target)return
+const{model:i}=e.draggable.data("view")
+return this.moveModelHere(i)}})}promise(){return this.loadDfd.promise()}moveModelHere(t,e){let i
+t.collection.remove(t)
+if(t instanceof d["a"]){this.groups.add(t)
+i=this.moveGroup(t,this.outcomeGroup.toJSON())}else{this.outcomes.add(t)
+i=this.changeLink(t,this.outcomeGroup.toJSON())}return i.done(()=>{t.trigger("select")
+if(e)return e.needsReset=true})}changeLink(t,e){const i=new s.a.Deferred
+this.$el.disableWhileLoading(i)
+function a(t,e){i.reject()
+return s.a.flashError(O.t("flash.error","An error occurred. Please refresh the page and try again."))}const n=t.outcomeGroup
+t.outcomeGroup=e
+t.setUrlTo("add")
+s.a.ajaxJSON(t.url,"POST",{outcome_id:t.get("id"),move_from:n.id}).done(e=>{t.set(t.parse(e))
+s.a.flashMessage(O.t("flash.updateSuccess","Update successful"))
+return i.resolve()}).fail(a)
+return i}moveGroup(t,e){const i=new s.a.Deferred
+function a(t,e){i.reject()
+return s.a.flashError(O.t("flash.error","An error occurred. Please refresh the page and try again."))}t.setUrlTo("edit")
+s.a.ajaxJSON(t.url,"PUT",{parent_outcome_group_id:e.id}).done(e=>{t.set(t.parse(e))
+s.a.flashMessage(O.t("flash.updateSuccess","Update successful"))
+return i.resolve()}).fail(a)
+this.$el.disableWhileLoading(i)
+return i}makeFocusable(){if(this.$el.find("[tabindex=0]").length>0)return
+if(this.views().length>0)return this.views()[0].makeFocusable()}selectFirstOutcome(){s()("ul.outcome-level li:first").click()}paginationLoaderTemplate(){return`<li><span class='loading-more'> ${Object(h["a"])(O.t("Loading more results"))}</span></li>`}showPaginationLoader(){null==this.$paginationLoader&&(this.$paginationLoader=s()(this.paginationLoaderTemplate()))
+return this.$el.append(this.$paginationLoader)}fetchOutcomes(){this.collection=this.outcomes
+this.bindPaginationEvents()
+this.outcomes.fetch({success:()=>this.loadDfd.resolve(this)})
+this.startPaginationListener()
+return this.showPaginationLoader()}triggerSelect(t){this.clearSelection()
+this.selectedModel=t.model
+t.select()
+return this.trigger("select",this,t.model)}views(){if(this._views&&!r.a.isEmpty(this._views))return this._views
+this._views=this._viewsFor(this.groups.models,b).concat(this._viewsFor(this.outcomes.models,w))
+for(const t of this._views){t.on("select",this.triggerSelect.bind(this))
+t.model===this.selectedModel&&t.select()}return this._views}reset(){this.needsReset=false
+this._clearViews()
+return this.render()}removeGroup(t){this.reset()
+if(t===E(r.a.last(this.sidebar.directories),t=>t.outcomeGroup))return this.trigger("select",this,null)}remove(){this._clearViews()
+this.selectedModel=null
+return super.remove(...arguments)}clearSelection(t){null!=t&&t.preventDefault()
+this.prevSelectedModel=this.selectedModel
+this.selectedModel=null
+return r.a.each(this.views(),t=>t.unSelect())}clearOutcomeSelection(){if(this.selectedModel instanceof Outcome)return this.clearSelection()}render(){this.$el.empty()
+if(this.needsReset)return this.reset()
+r.a.each(this.views(),t=>this.$el.append(t.render().el))
+this.inFindDialog&&this.handleWarning()
+this.readOnly||this.initDroppable()
+this.startPaginationListener()
+this.$("li:first").attr("tabindex",0)
+this.$el.data("view",this)
+return this}handleWarning(){return!this.parent&&r.a.isEmpty(this.groups.models)&&r.a.isEmpty(this.outcomes.models)&&r.a.isEmpty(this.views())?Object(x["publish"])("renderNoOutcomeWarning"):Object(x["publish"])("clearNoOutcomeWarning")}_viewsFor(t,e){return r.a.map(t,t=>new e({model:t,readOnly:this.readOnly,dir:this}))}_clearViews(){r.a.each(this._views,t=>t.remove())
+return this._views=null}}S.initClass()
+function E(t,e){return"undefined"!==typeof t&&null!==t?e(t):void 0}class C extends S{initialize(t){this.outcomes=new m["a"]
+this.groups=new v
+this.groups.url=ENV.ACCOUNT_CHAIN_URL
+return super.initialize(t)}fetchOutcomes(){}}class M extends S{initialize(t){this.outcomes=new m["a"]
+return super.initialize(...arguments)}fetchOutcomes(){}}const k=Object(a["useScope"])("outcomesFindDirectoryVew")
+class D extends S{initialize(t){let e,i
+this.readOnly=true
+const a=new d["a"]({dontImport:true,id:-1,title:k.t("account_standards","Account Standards"),description:k.t("account_standards_description","To the left you'll notice the standards your institution has created for you to use in your courses."),directoryClass:C})
+if(ENV.STATE_STANDARDS_URL){i=new d["a"]({dontImport:true,title:k.t("state_standards","State Standards"),description:k.t("state_standards_description","To the left you'll see a folder for each state with their updated state standards. This allows for you to painlessly include state standards for grading within your course."),directoryClass:M})
+i.url=ENV.STATE_STANDARDS_URL}t.courseGroup&&(e=t.courseGroup)
+this.outcomes=new m["a"]
+this.groups=new v(r.a.compact([a,i,e]))
+this.collection=this.groups
+const n=(()=>{const t=[]
+for(const e of r.a.compact([i])){e.on("change",this.revertTitle)
+t.push(e.fetch())}return t})()
+return this.$el.disableWhileLoading(s.a.when(...Array.from(n||[])).done(()=>setTimeout(()=>{this.reset()
+return this.$el.find("[tabindex=0]:first").focus()})))}revertTitle(t){return t.set({title:t.previous("title"),description:t.previous("description")},{silent:true})}}const I=Object(a["useScope"])("outcomesSidebarView")
+let T
+class N extends c.a.View{static initClass(){this.prototype.directoryWidth=200
+this.prototype.entryHeight=30
+this.prototype.events={"click .outcome-level":"clickOutcomeLevel"}}initialize(t){super.initialize(...arguments)
+this.inFindDialog=t.inFindDialog
+this.readOnly=t.readOnly
+this.selectFirstItem=t.selectFirstItem
+this.directories=[]
+this.cachedDirectories={}
+this.$sidebar=this.$el.parent()
+this.$sidebar.width(this.directoryWidth);(this.rootOutcomeGroup=t.rootOutcomeGroup)?this.addDirFor(this.rootOutcomeGroup,true):this.addDir(t.directoryView)
+return this.render()}clickOutcomeLevel(t){const e=t.target===t.currentTarget
+if(!e)return
+const i=s()(t.target).data("view")
+return this.selectDir(i)}resetSidebar(){r.a.each(this.directories,t=>t.remove())
+this.directories=[]
+this.cachedDirectories={}
+return this.addDirFor(this.rootOutcomeGroup,true)}addDirFor(t,e=false){let i
+if(this.cachedDirectories[t.id])i=this.cachedDirectories[t.id]
+else{const a=r.a.last(this.directories)
+const n=t.get("directoryClass")||S
+const s=r.a.indexOf(this.directories,this.selectedDir())
+i=new n({outcomeGroup:t,parent:a,readOnly:this.readOnly,selectFirstItem:e&&this.selectFirstItem,inFindDialog:this.inFindDialog,directoryDepth:s+1})
+this.firstDir=false}return this.addDir(i)}addDir(t){t.outcomeGroup&&(this.cachedDirectories[t.outcomeGroup.id]=t)
+t.off("select")
+t.on("select",this.selectDir,this)
+t.sidebar=this
+t.clearSelection()
+this.directories.push(t)
+this.updateSidebarWidth()
+this.renderDir(t)
+return t}addAndSelect(t){t instanceof u["a"]?t.outcomeGroup=this.selectedGroup().toJSON():t.set("parent_outcome_group",this.selectedGroup().toJSON())
+const e=this._findLastDir(t=>!t.selectedModel||t.selectedModel instanceof u["a"])
+t instanceof u["a"]?e.outcomes.add(t):e.groups.add(t)
+this._scrollToDir(r.a.indexOf(this.directories,e),t)
+return t.trigger("select")}selectDir(t,e){const i=t||this.directories[0]
+i&&!e&&i.clearSelection()
+const a=r.a.indexOf(this.directories,i)
+const n=this.directories.splice(a+1,this.directories.length-(a+1))
+r.a.each(n,t=>t.remove())
+const s=e instanceof d["a"]&&!e.isNew()
+s&&this.addDirFor(e)
+this.updateSidebarWidth()
+const o=s?a+1:a
+this._scrollToDir(o,e)
+let l=e
+this.goingBack&&(l=i.parent?i.outcomeGroup:null)
+return this.trigger("select",l,this.directories)}refreshSelection(t){const e=this.selectedDir()
+if(t===e.selectedModel){e.clearSelection()
+return t.trigger("select")}}selectedDir(){return this._findLastDir(t=>t.selectedModel)}selectedModel(){return L(this.selectedDir(),t=>t.selectedModel)}selectedGroup(){let t=null
+this._findLastDir(e=>{if(e.selectedModel instanceof d["a"])return t=e.selectedModel})
+return t||this.rootOutcomeGroup}clearOutcomeSelection(){return r.a.last(this.directories).clearOutcomeSelection()}goBack(){this.goingBack=true
+if(this.selectedModel()instanceof d["a"])this.selectDir(this.selectedDir())
+else{const t=r.a.indexOf(this.directories,this.selectedDir())
+this.selectDir(this.directories[t-1])}this.selectedDir().makeFocusable()
+return this.goingBack=false}updateSidebarWidth(){const t=1===this.directories.length?this.directoryWidth:2*this.directoryWidth
+this.$el.css({width:this.directoryWidth*this.directories.length})
+return this.$sidebar.animate({width:t})}renderDir(t){return this.$el.append(t.render().el)}render(){this.$el.empty()
+r.a.each(this.directories,t=>this.renderDir(t))
+return this}findDialog(t){if(T)T.updateSelection(this.selectedGroup())
+else{T=new t({title:I.t("titles.find_outcomes","Find Outcomes"),selectedGroup:this.selectedGroup(),directoryView:new D({outcomeGroup:this.selectedGroup()})})
+T.on("import",this.addAndSelect,this)}return T.show()}dirForGroup(t){return r.a.find(this.directories,e=>e.outcomeGroup===t)||this.addDirFor(t)}moveItem(t,e){let i
+const a=t.get("parent_outcome_group")||t.outcomeGroup
+const n=this.cachedDirectories[a.id]
+const o=this.cachedDirectories[e.id]
+if(a.id===e.id){s.a.flashError(I.t("%{model} is already located in %{newGroup}",{model:t.get("title"),newGroup:e.get("title")}))
+return}i=t instanceof d["a"]?n.moveGroup(t,e.toJSON()):n.changeLink(t,e.toJSON())
+return i.done(()=>{const a=t instanceof d["a"]?"groups":"outcomes"
+if(o){i=o[a].fetch()
+i.done(()=>o.needsReset=true)}n[a].fetch()
+const r=n.parent
+r&&this.selectDir(r,r.selectedModel)
+t.trigger("finishedMoving")
+s()(".selected:last").focus()
+return setTimeout(()=>s.a.flashMessage(I.t("Successfully moved %{model} to %{newGroup}",{model:t.get("title"),newGroup:e.get("title")})),1500)})}_scrollToDir(t,e){const i=this.directoryWidth*(e instanceof u["a"]?t-1:t)
+this.$sidebar.animate({scrollLeft:i},{duration:200})
+const a=(this.entryHeight+1)*r.a.indexOf(this.directories[t].views(),r.a.find(this.directories[t].views(),t=>t.model===e))
+return this.directories[t].$el.animate({scrollTop:a},{duration:200})}_findLastDir(t){return r.a.find(r.a.clone(this.directories).reverse(),t)||r.a.last(this.directories)}}N.initClass()
+function L(t,e){return"undefined"!==typeof t&&null!==t?e(t):void 0}},"56aU":function(t,e,i){"use strict"
+i.d(e,"a",(function(){return Kt}))
+var a=i("ouhR")
+var n=i.n(a)
+var s=i("HGxv")
+var o=i("mX+G")
+var r=i.n(o)
+var l=i("A5yp")
+var c=i("iM/W")
+var u=i("FdVj")
+var d=i("Y/W1")
+var h=i.n(d)
+var p=i("br6r")
+var m=i("Ce78J")
+i("r2Yr")
+i("sXof")
+const f=Object(s["useScope"])("OutcomeContentBase")
+m["a"].preloadRemoteModule()
+class _ extends p["a"]{static initClass(){this.prototype.tagName="div"
+this.prototype.className="wrapper"
+this.prototype.events=h.a.extend({"click .edit_button":"edit","click .cancel_button":"cancel","click .delete_button":"delete","click .move_button":"move","keyup input.outcome_title":"updateTitle"},p["a"].prototype.events)
+this.prototype.validations={title(t){if(h.a.isEmpty(t.title))return f.t("blank_error","Cannot be blank")
+if(t.title.length>255)return f.t("length_error","Must be 255 characters or less")}}}isValid(){this.errors={}
+const t=this.getFormData()
+for(const i in this.validations){var e
+const a=this.validations[i];(e=a(t))&&(this.errors[i]=[{message:e}])}return h.a.isEmpty(this.errors)}initialize(t){this.state=t.state
+this._readOnly=t.readOnly
+this.on("success",this.success,this)
+this.on("fail",this.fail,this)
+this.setModelUrl()
+if(this.model.isAbbreviated()&&"add"!==this.state){this.state="loading"
+this.$el.disableWhileLoading(this.model.fetch({success:()=>{this.state=t.state
+return this.render()}}))}return super.initialize(...arguments)}_cleanUpTiny(){const t=this.$el.find('[name="description"]')
+m["a"].closeRCE(t)
+return m["a"].destroyRCE(t)}submit(t){t.preventDefault()
+this.setModelUrl()
+this.getTinyMceCode()
+if(!this.isValid())return this.showErrors(this.errors)
+super.submit(t)
+this._cleanUpTiny()
+n()(".edit_button").focus()}success(){if("add"===this.state){this.trigger("addSuccess",this.model)
+n.a.flashMessage(f.t("flash.addSuccess","Creation successful"))}else n.a.flashMessage(f.t("flash.updateSuccess","Update successful"))
+this.state="show"
+this.render()
+n()(".edit_button").focus()
+return this}fail(){return n.a.flashError(f.t("flash.error","An error occurred. Please refresh the page and try again."))}getTinyMceCode(){const t=this.$("textarea")
+return t.val(m["a"].callOnRCE(t,"get_code"))}setModelUrl(){return this.model.setUrlTo((()=>{switch(this.state){case"add":return"add"
+case"delete":return"delete"
+case"move":return"move"
+default:return"edit"}})())}getFormData(){return this.$("form").toJSON()}remove(){this.tinymceExists()&&this._cleanUpTiny()
+this.$el.hideErrors()
+"add"===this.state&&this.model.isNew()&&this.model.destroy()
+return super.remove(...arguments)}cancel(t){t.preventDefault()
+this.resetModel()
+this._cleanUpTiny()
+this.$el.hideErrors()
+if("add"===this.state){this.$el.empty()
+this.model.destroy()
+this.state="show"
+n()(".add_outcome_link").focus()}else{this.state="show"
+this.render()
+n()(".edit_button").focus()}return this}edit(t){t.preventDefault()
+this.state="edit"
+this._modelAttributes=this.model.toJSON()
+return this.render()}delete(t){t.preventDefault()
+if(!confirm(f.t("confirm.delete","Are you sure you want to delete?")))return
+this.state="delete"
+this.setModelUrl()
+return this.$el.disableWhileLoading(this.model.destroy({success:()=>{n.a.flashMessage(f.t("flash.deleteSuccess","Deletion successful"))
+this.trigger("deleteSuccess")
+this.remove()
+n()(".add_outcome_link").focus()},error:(t,e)=>{e.responseText.match(/Outcome.*cannot be deleted because it is aligned to content/)?n.a.flashError(f.t("flash.userDeleteError","Outcome Group contains one or more Outcomes that are currently aligned to content.")):n.a.flashError(f.t("flash.unexpectedDeleteError","Something went wrong. Unable to delete at this time."))}}))}move(t){t.preventDefault()
+return this.trigger("move",this.model)}resetModel(){return this.model.set(this._modelAttributes)}readyForm(){return setTimeout(()=>{m["a"].loadNewEditor(this.$("textarea"),{getRenderingTarget(t){const e=n()(t).wrap(`<div id='parent-of-${t.id}'></div>`).get(0)
+return e.parentNode}})
+return this.$("input:first").focus()})}readOnly(){return this._readOnly}updateTitle(t){return this.model.set("title",t.currentTarget.value)}tinymceExists(){const t=this.$el.find('[name="description"]').length>0
+const e=m["a"].callOnRCE(this.$el.find('[name="description"]'),"exists?")
+return t&&e}}_.initClass()
+var g=i("3O+N")
+var v=i.n(g)
+i("BGrI")
+var y=v.a.default
+var b=y.template,w=y.templates=y.templates||{}
+var x="/work/canvas-deploy/generated/ui/shared/outcomes/jst/-calculationMethodExample"
+w[x]=b((function(t,e,i,a,n){this.compilerInfo=[4,">= 1.0.0"]
+i=this.merge(i,t.helpers)
+n=n||{}
+var s,o,r,l="",c=i.helperMissing,u=this.escapeExpression,d="function",h=this
+function p(t,e){var a,n,s,o=""
+o+='\n  <dt class="example">'+u((n=i.t||t&&t.t,s={hash:{i18n_inferred_key:true},data:e},n?n.call(t,"warning_aacb8c24","Warning",s):c.call(t,"t","warning_aacb8c24","Warning",s)))+': </dt>\n  <dd class="example">'
+if(n=i.exampleWarning)a=n.call(t,{hash:{},data:e})
+else{n=t&&t.exampleWarning
+a=typeof n===d?n.call(t,{hash:{},data:e}):n}o+=u(a)+"</dd>\n  "
+return o}l+='<dl class="dl-horizontal">\n  <dt>'+u((o=i.t||e&&e.t,r={hash:{i18n_inferred_key:true},data:n},o?o.call(e,"calculation_method_fe281f9","Calculation Method",r):c.call(e,"t","calculation_method_fe281f9","Calculation Method",r)))+":</dt>\n  <dd>"
+if(o=i.method)s=o.call(e,{hash:{},data:n})
+else{o=e&&e.method
+s=typeof o===d?o.call(e,{hash:{},data:n}):o}l+=u(s)+'</dd>\n\n  <dt class="example">'+u((o=i.t||e&&e.t,r={hash:{i18n_inferred_key:true},data:n},o?o.call(e,"example_84698b7d","Example",r):c.call(e,"t","example_84698b7d","Example",r)))+': </dt>\n  <dd id="calculation_int_example" class="example">'
+if(o=i.exampleText)s=o.call(e,{hash:{},data:n})
+else{o=e&&e.exampleText
+s=typeof o===d?o.call(e,{hash:{},data:n}):o}l+=u(s)+"</dd>\n  \n  "
+s=i["if"].call(e,e&&e.exampleWarning,{hash:{},inverse:h.noop,fn:h.program(1,p,n),data:n});(s||0===s)&&(l+=s)
+l+='\n\n  <dt class="example">\n    <span aria-hidden="true">'+u((o=i.t||e&&e.t,r={hash:{i18n_inferred_key:true},data:n},o?o.call(e,"1_item_scores_5512cd03","1- Item scores",r):c.call(e,"t","1_item_scores_5512cd03","1- Item scores",r)))+': </span>\n    <span class="screenreader-only">'+u((o=i.t||e&&e.t,r={hash:{i18n_inferred_key:true},data:n},o?o.call(e,"example_item_scores_6726c689","Example item scores",r):c.call(e,"t","example_item_scores_6726c689","Example item scores",r)))+': </span>\n  </dt>\n  <dd class="example">'
+if(o=i.exampleScores)s=o.call(e,{hash:{},data:n})
+else{o=e&&e.exampleScores
+s=typeof o===d?o.call(e,{hash:{},data:n}):o}l+=u(s)+'</dd>\n\n  <dt class="example">\n    <span aria-hidden="true">'+u((o=i.t||e&&e.t,r={hash:{i18n_inferred_key:true},data:n},o?o.call(e,"2_final_score_7b0fd15e","2- Final score",r):c.call(e,"t","2_final_score_7b0fd15e","2- Final score",r)))+': </span>\n    <span class="screenreader-only">'+u((o=i.t||e&&e.t,r={hash:{i18n_inferred_key:true},data:n},o?o.call(e,"example_final_score_355aff0f","Example final score",r):c.call(e,"t","example_final_score_355aff0f","Example final score",r)))+'</span>\n  </dt>\n  <dd class="example">'+u((o=i.nf||e&&e.nf,r={hash:{format:"outcomeScore"},data:n},o?o.call(e,e&&e.exampleResult,r):c.call(e,"nf",e&&e.exampleResult,r)))+"</dd>\n</dl>\n"
+return l}))
+y.registerPartial("ui/shared/outcomes/jst/_calculationMethodExample.handlebars",w["/work/canvas-deploy/generated/ui/shared/outcomes/jst/-calculationMethodExample"])
+w[x]
+var O=v.a.default
+var S=O.template,E=O.templates=O.templates||{}
+var C="/work/canvas-deploy/generated/ui/shared/outcome-content-view/jst/outcomeCalculationMethodForm"
+E[C]=S((function(t,e,i,a,n){this.compilerInfo=[4,">= 1.0.0"]
+i=this.merge(i,t.helpers)
+a=this.merge(a,t.partials)
+n=n||{}
+var s,o,r,l="",c="function",u=this.escapeExpression,d=i.helperMissing,h=this
+function p(t,e){var a,n,s=""
+s+='\n          <input type="text" name="calculation_int" class="outcomes_narrow_text_input" id="calculation_int" value="'
+if(n=i.calculation_int)a=n.call(t,{hash:{},data:e})
+else{n=t&&t.calculation_int
+a=typeof n===c?n.call(t,{hash:{},data:e}):n}s+=u(a)+'" />\n        '
+return s}function m(t,e){var a,n,s=""
+s+='\n          <span id="calculation_int">'
+if(n=i.calculation_int)a=n.call(t,{hash:{},data:e})
+else{n=t&&t.calculation_int
+a=typeof n===c?n.call(t,{hash:{},data:e}):n}s+=u(a)+"</span>\n        "
+return s}function f(t,e){return"8"}function _(t,e){return"12"}l+='<div class="content-box border border-trbl border-round">\n  <div class="grid-row">\n    <div id="calculation_int_left_side" style="'+u((o=i.hiddenUnlessExists||e&&e.hiddenUnlessExists,r={hash:{},data:n},o?o.call(e,e&&e.calculation_int,r):d.call(e,"hiddenUnlessExists",e&&e.calculation_int,r)))+'"\n      class="col-xs-4 border border-r">\n      <div>\n        <label for="calculation_int" id="calculation_int_label">\n          '
+if(o=i.calculationIntLabel)s=o.call(e,{hash:{},data:n})
+else{o=e&&e.calculationIntLabel
+s=typeof o===c?o.call(e,{hash:{},data:n}):o}l+=u(s)+"\n        </label>\n        "
+s=(o=i.ifIncludes||e&&e.ifIncludes,r={hash:{},inverse:h.program(3,m,n),fn:h.program(1,p,n),data:n},o?o.call(e,e&&e.writeStates,e&&e.state,r):d.call(e,"ifIncludes",e&&e.writeStates,e&&e.state,r));(s||0===s)&&(l+=s)
+l+='\n      </div>\n      <div>\n        <span class="outcomes-calculation-int-italics">\n          '
+if(o=i.calculationIntDescription)s=o.call(e,{hash:{},data:n})
+else{o=e&&e.calculationIntDescription
+s=typeof o===c?o.call(e,{hash:{},data:n}):o}l+=u(s)+'\n        </span>\n      </div>\n    </div>\n    <div class="col-xs-'
+s=(o=i.ifExists||e&&e.ifExists,r={hash:{},inverse:h.program(7,_,n),fn:h.program(5,f,n),data:n},o?o.call(e,e&&e.calculation_int,r):d.call(e,"ifExists",e&&e.calculation_int,r));(s||0===s)&&(l+=s)
+l+='">\n      '
+s=h.invokePartial(a["ui/shared/outcomes/jst/_calculationMethodExample.handlebars"],"ui/shared/outcomes/jst/_calculationMethodExample.handlebars",e,i,a,n);(s||0===s)&&(l+=s)
+l+="\n    </div>\n  </div>\n</div>\n\n"
+return l}))
+var M=E[C]
+var k=i("Oe3c")
+class D extends r.a.View{static initClass(){this.optionProperty("el")
+this.optionProperty("model")
+this.optionProperty("state")
+this.prototype.template=M
+this.prototype.els={"#calculation_int":"$calculation_int"}
+this.prototype.events={"blur #calculation_int":"blur","keyup #calculation_int":"keyup"}}afterRender(){if(this.hadFocus){this.$calculation_int.focus().val(this.$calculation_int.val())
+this.$calculation_int[0].selectionStart=this.selectionStart}return this.hadFocus=void 0}attach(){return this.model.on("change:calculation_method",this.render,this)}blur(t){this.timeout&&clearTimeout(this.timeout)
+return this.change(t)}change(t){const e=parseInt(u["a"].parse($(t.target).val()))
+if(h.a.isNaN(e))return
+this.model.set({calculation_int:e})
+return this.render()}keyup(t){this.timeout&&clearTimeout(this.timeout)
+this.timeout=setTimeout(()=>this.change(t),500)}render(){this.hadFocus=!h.a.isEmpty(this.$calculation_int)&&document.activeElement===this.$calculation_int[0]
+this.hadFocus&&(this.selectionStart=document.activeElement.selectionStart)
+this.undelegateEvents()
+super.render(...arguments)
+return this.delegateEvents()}toJSON(){var t
+let e
+if(ENV.ACCOUNT_LEVEL_MASTERY_SCALES&&null!==(t=ENV.MASTERY_SCALE)&&void 0!==t&&t.outcome_calculation_method){const t=new k["a"](ENV.MASTERY_SCALE.outcome_calculation_method)
+e={...ENV.MASTERY_SCALE.outcome_calculation_method,...t.present()}}else e=super.toJSON(...arguments)
+return h.a.extend(e,{state:this.state,writeStates:["add","edit"]})}}D.initClass()
+var I=v.a.default
+var T=I.template,N=I.templates=I.templates||{}
+var L="/work/canvas-deploy/generated/ui/shared/outcome-content-view/jst/outcome"
+N[L]=T((function(t,e,i,a,n){this.compilerInfo=[4,">= 1.0.0"]
+i=this.merge(i,t.helpers)
+n=n||{}
+var s,o,r="",l="function",c=this.escapeExpression,u=i.helperMissing,d=this
+function h(t,e){var a,n,s=""
+s+="\n    <a href='"
+if(n=i.html_url)a=n.call(t,{hash:{},data:e})
+else{n=t&&t.html_url
+a=typeof n===l?n.call(t,{hash:{},data:e}):n}s+=c(a)+"'>"
+if(n=i.title)a=n.call(t,{hash:{},data:e})
+else{n=t&&t.title
+a=typeof n===l?n.call(t,{hash:{},data:e}):n}s+=c(a)+"</a>\n  "
+return s}function p(t,e){var a,n,s=""
+s+="\n    "
+if(n=i.title)a=n.call(t,{hash:{},data:e})
+else{n=t&&t.title
+a=typeof n===l?n.call(t,{hash:{},data:e}):n}s+=c(a)+"\n  "
+return s}function m(t,e){var a,n,s,o=""
+o+='\n  <div class="friendly-description">\n    <div class="friendly-description-title">'+c((n=i.t||t&&t.t,s={hash:{i18n_inferred_key:true},data:e},n?n.call(t,"friendly_description_57f7fdde","Friendly Description",s):u.call(t,"t","friendly_description_57f7fdde","Friendly Description",s)))+'</div>\n    <div class="friendly-description-info">'
+if(n=i.friendly_description)a=n.call(t,{hash:{},data:e})
+else{n=t&&t.friendly_description
+a=typeof n===l?n.call(t,{hash:{},data:e}):n}(a||0===a)&&(o+=a)
+o+="</div>\n  </div>\n"
+return o}function f(t,e){var a,n,s,o=""
+o+='\n  <table class="criterion">\n    <thead>\n      <tr>\n        '
+a=i.each.call(t,t&&t.ratings,{hash:{},inverse:d.noop,fn:d.program(8,_,e),data:e});(a||0===a)&&(o+=a)
+o+='\n        <th class="total" aria-label=\''+c((n=i.t||t&&t.t,s={hash:{i18n_inferred_key:true},data:e},n?n.call(t,"total_points_44d76792","Total Points",s):u.call(t,"t","total_points_44d76792","Total Points",s)))+'\'>\n          <h3 class="total">'+c((n=i.t||t&&t.t,s={hash:{i18n_inferred_key:true},data:e},n?n.call(t,"total_points_44d76792","Total Points",s):u.call(t,"t","total_points_44d76792","Total Points",s)))+"</h3>\n        </th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        "
+a=i.each.call(t,t&&t.ratings,{hash:{},inverse:d.noop,fn:d.program(10,g,e),data:e});(a||0===a)&&(o+=a)
+o+='\n        <td class="total">\n          '
+a=(n=i.n||t&&t.n,s={hash:{precision:2,strip_insignificant_zeros:true},data:e},n?n.call(t,t&&t.points_possible,s):u.call(t,"n",t&&t.points_possible,s))
+o+=c((n=i.t||t&&t.t,s={hash:{n_points_possible_precision_2_st:a,i18n_inferred_key:true},data:e},n?n.call(t,"n_points_possible_precision_2_st_points_bc3748df","%{n_points_possible_precision_2_st} Points",s):u.call(t,"t","n_points_possible_precision_2_st_points_bc3748df","%{n_points_possible_precision_2_st} Points",s)))+"\n        </td>\n      </tr>\n    </tbody>\n  </table>\n"
+return o}function _(t,e){var a,n,s=""
+s+='\n        <th class="rating" aria-label=\''
+if(n=i.description)a=n.call(t,{hash:{},data:e})
+else{n=t&&t.description
+a=typeof n===l?n.call(t,{hash:{},data:e}):n}s+=c(a)+"'>\n          <h3>"
+if(n=i.description)a=n.call(t,{hash:{},data:e})
+else{n=t&&t.description
+a=typeof n===l?n.call(t,{hash:{},data:e}):n}s+=c(a)+"</h3>\n        </th>\n        "
+return s}function g(t,e){var a,n,s,o=""
+o+='\n        <td class="rating">\n          '
+a=(n=i.n||t&&t.n,s={hash:{precision:2,strip_insignificant_zeros:true},data:e},n?n.call(t,t&&t.points,s):u.call(t,"n",t&&t.points,s))
+o+=c((n=i.t||t&&t.t,s={hash:{n_points_precision_2_strip_insig:a,i18n_inferred_key:true},data:e},n?n.call(t,"n_points_precision_2_strip_insig_points_60ad6f21","%{n_points_precision_2_strip_insig} Points",s):u.call(t,"t","n_points_precision_2_strip_insig_points_60ad6f21","%{n_points_precision_2_strip_insig} Points",s)))+"\n        </td>\n        "
+return o}function v(t,e){var a,n,s=""
+s+='\n  <label for="outcome_mastery_at">\n    '+c((a=i.t||t&&t.t,n={hash:{scope:"outcomes.outcome"},data:e},a?a.call(t,"mastery_at_label","Set mastery for any score at or above:",n):u.call(t,"t","mastery_at_label","Set mastery for any score at or above:",n)))+'\n    <input type="text" name="mastery_at" id="outcome_mastery_at" value="60" />\n    %\n  </label>\n'
+return s}function y(t,e){var a,n=""
+n+="\n  "
+a=i["if"].call(t,t&&t.useForScoring,{hash:{},inverse:d.program(17,w,e),fn:d.program(15,b,e),data:e});(a||0===a)&&(n+=a)
+n+="\n"
+return n}function b(t,e){var a,n,s=""
+s+='\n    <label for="outcome_use_for_scoring">\n      <input type="checkbox" id="outcome_use_for_scoring" class="criterion_for_scoring" checked />\n      '+c((a=i.t||t&&t.t,n={hash:{scope:"outcomes.outcome"},data:e},a?a.call(t,"use_for_scoring","Use this criterion for scoring",n):u.call(t,"t","use_for_scoring","Use this criterion for scoring",n)))+"\n    </label>\n  "
+return s}function w(t,e){var a,n=""
+n+="\n    "
+a=i.unless.call(t,t&&t.hideMasteryScale,{hash:{},inverse:d.noop,fn:d.program(18,x,e),data:e});(a||0===a)&&(n+=a)
+n+="\n  "
+return n}function x(t,e){var a,n,s,o=""
+o+="\n     <p>"
+a=(n=i.n||t&&t.n,s={hash:{precision:2,strip_insignificant_zeros:true},data:e},n?n.call(t,t&&t.mastery_points,s):u.call(t,"n",t&&t.mastery_points,s))
+o+=c((n=i.t||t&&t.t,s={hash:{n_mastery_points_precision_2_str:a,i18n_inferred_key:true},data:e},n?n.call(t,"mastery_n_mastery_points_precision_2_str_points_e0ed1b3b","Mastery: %{n_mastery_points_precision_2_str} Points",s):u.call(t,"t","mastery_n_mastery_points_precision_2_str_points_e0ed1b3b","Mastery: %{n_mastery_points_precision_2_str} Points",s)))+"</p>\n    "
+return o}function O(t,e){var a,n,s,o=""
+o+='\n  <div id="calculation_method" data-calculation-method="'
+if(n=i.calculation_method)a=n.call(t,{hash:{},data:e})
+else{n=t&&t.calculation_method
+a=typeof n===l?n.call(t,{hash:{},data:e}):n}o+=c(a)+'">\n    '+c((n=i.t||t&&t.t,s={hash:{i18n_inferred_key:true},data:e},n?n.call(t,"calculation_method_fe281f9","Calculation Method",s):u.call(t,"t","calculation_method_fe281f9","Calculation Method",s)))+": "
+if(n=i.friendlyCalculationMethod)a=n.call(t,{hash:{},data:e})
+else{n=t&&t.friendlyCalculationMethod
+a=typeof n===l?n.call(t,{hash:{},data:e}):n}o+=c(a)+'\n  </div>\n\n  <div class="content-box">\n    <div class="grid-row">\n      \x3c!-- Hook for OutcomeCalculationMethodFormView --\x3e\n      <div class="col-xs-12 outcome-calculation-method-form"></div>\n    </div>\n  </div>\n'
+return o}function S(t,e){var a,n,s,o=""
+o+="\n  "
+a=i.unless.call(t,t&&t.hideMasteryScale,{hash:{},inverse:d.noop,fn:d.program(23,E,e),data:e});(a||0===a)&&(o+=a)
+o+='\n  <div class="pull-right">\n    <button class="move_button ui-button ui-widget ui-state-default ui-corner-all">\n      <span aria-hidden="true">'+c((n=i.t||t&&t.t,s={hash:{i18n_inferred_key:true},data:e},n?n.call(t,"move_abf00365","Move",s):u.call(t,"t","move_abf00365","Move",s)))+'</span>\n      <span class="screenreader-only">'+c((n=i.t||t&&t.t,s={hash:{i18n_inferred_key:true},data:e},n?n.call(t,"move_outcome_ce497e6c","Move Outcome",s):u.call(t,"t","move_outcome_ce497e6c","Move Outcome",s)))+"</span>\n    </button>\n    "
+a=i["if"].call(t,t&&t.can_edit,{hash:{},inverse:d.noop,fn:d.program(26,M,e),data:e});(a||0===a)&&(o+=a)
+o+="\n    "
+a=i["if"].call(t,t&&t.can_unlink,{hash:{},inverse:d.noop,fn:d.program(28,k,e),data:e});(a||0===a)&&(o+=a)
+o+="\n  </div>\n"
+return o}function E(t,e){var a,n=""
+n+="\n    "
+a=i["if"].call(t,t&&t.assessedInContext,{hash:{},inverse:d.noop,fn:d.program(24,C,e),data:e});(a||0===a)&&(n+=a)
+n+="\n  "
+return n}function C(t,e){var a,n,s=""
+s+='\n      <div id="assessed_info_banner" class="alert alert-info outcome-assessed-info-banner ">\n        <span>\n          <span class="outcome-assessed-info-banner-with-mastery-scale">\n            '+c((a=i.t||t&&t.t,n={hash:{i18n_inferred_key:true},data:e},a?a.call(t,"this_outcome_has_been_used_to_assess_a_student_and_a3a48511","This outcome has been used to assess a student and some edits will affect student results.",n):u.call(t,"t","this_outcome_has_been_used_to_assess_a_student_and_a3a48511","This outcome has been used to assess a student and some edits will affect student results.",n)))+"\n          </span>\n        </span>\n      </div>\n    "
+return s}function M(t,e){var a,n,s=""
+s+='\n      <button class="edit_button ui-button ui-widget ui-state-default ui-corner-all">\n        <span aria-hidden="true">'+c((a=i.t||t&&t.t,n={hash:{scope:"outcomes.outcome"},data:e},a?a.call(t,"links.edit_outcome","Edit",n):u.call(t,"t","links.edit_outcome","Edit",n)))+'</span>\n        <span class="screenreader-only">'+c((a=i.t||t&&t.t,n={hash:{i18n_inferred_key:true},data:e},a?a.call(t,"edit_outcome_867a0381","Edit Outcome",n):u.call(t,"t","edit_outcome_867a0381","Edit Outcome",n)))+"</span>\n      </button>\n    "
+return s}function k(t,e){var a,n,s,o=""
+o+='\n      <button class="delete_button ui-button ui-widget ui-state-default ui-corner-all"\n        '
+a=i["if"].call(t,t&&t.assessedInContext,{hash:{},inverse:d.noop,fn:d.program(29,D,e),data:e});(a||0===a)&&(o+=a)
+o+='>\n        <span aria-hidden="true">'+c((n=i.t||t&&t.t,s={hash:{scope:"outcomes.outcome"},data:e},n?n.call(t,"links.delete_outcome","Delete",s):u.call(t,"t","links.delete_outcome","Delete",s)))+'</span>\n        <span class="screenreader-only">'+c((n=i.t||t&&t.t,s={hash:{i18n_inferred_key:true},data:e},n?n.call(t,"delete_outcome_cc6546f1","Delete Outcome",s):u.call(t,"t","delete_outcome_cc6546f1","Delete Outcome",s)))+"</span>\n      </button>\n    "
+return o}function D(t,e){return" disabled "}r+='<h2 class="screenreader-outcome-title screenreader-only" tabindex="0">\n  '
+if(o=i.title)s=o.call(e,{hash:{},data:n})
+else{o=e&&e.title
+s=typeof o===l?o.call(e,{hash:{},data:n}):o}r+=c(s)+'\n</h2>\n<h2 class="title" role="presentation">\n  <i class="icon-outcomes" aria-hidden="true"></i>\n  '
+s=i.unless.call(e,e&&e.doNotRenderTitleLink,{hash:{},inverse:d.program(3,p,n),fn:d.program(1,h,n),data:n});(s||0===s)&&(r+=s)
+r+="\n</h2>\n"
+s=i["if"].call(e,e&&e.friendly_description,{hash:{},inverse:d.noop,fn:d.program(5,m,n),data:n});(s||0===s)&&(r+=s)
+r+='\n<div class="description">\n  '
+if(o=i.description)s=o.call(e,{hash:{},data:n})
+else{o=e&&e.description
+s=typeof o===l?o.call(e,{hash:{},data:n}):o}(s||0===s)&&(r+=s)
+r+="\n</div>\n"
+s=i.unless.call(e,e&&e.hideMasteryScale,{hash:{},inverse:d.noop,fn:d.program(7,f,n),data:n});(s||0===s)&&(r+=s)
+r+="\n\n"
+s=i["if"].call(e,e&&e.setQuizMastery,{hash:{},inverse:d.program(14,y,n),fn:d.program(12,v,n),data:n});(s||0===s)&&(r+=s)
+r+="\n\n"
+s=i.unless.call(e,e&&e.hideMasteryScale,{hash:{},inverse:d.noop,fn:d.program(20,O,n),data:n});(s||0===s)&&(r+=s)
+r+="\n\n"
+s=i["if"].call(e,e&&e.can_manage,{hash:{},inverse:d.noop,fn:d.program(22,S,n),data:n});(s||0===s)&&(r+=s)
+r+="\n"
+return r}))
+var F=N[L]
+var A=v.a.default
+var G=A.template,R=A.templates=A.templates||{}
+var j="/work/canvas-deploy/generated/ui/shared/outcome-content-view/jst/-criterionHeader"
+R[j]=G((function(t,e,i,a,n){this.compilerInfo=[4,">= 1.0.0"]
+i=this.merge(i,t.helpers)
+n=n||{}
+var s,o,r,l="",c="function",u=this.escapeExpression,d=i.helperMissing
+l+='<th class="rating-header" aria-label=\''
+if(o=i.description)s=o.call(e,{hash:{},data:n})
+else{o=e&&e.description
+s=typeof o===c?o.call(e,{hash:{},data:n}):o}l+=u(s)+"'>\n  <div class='rating-wrap'>\n    <h5>"
+if(o=i.description)s=o.call(e,{hash:{},data:n})
+else{o=e&&e.description
+s=typeof o===c?o.call(e,{hash:{},data:n}):o}l+=u(s)+'</h5>\n    <div class="insert">\n      <a href="#" class="insert_rating" title="'+u((o=i.t||e&&e.t,r={hash:{scope:"outcomes.criterion_header"},data:n},o?o.call(e,"insert_criterion_rating","Insert criterion rating",r):d.call(e,"t","insert_criterion_rating","Insert criterion rating",r)))+'" tabindex=0 role=button aria-label="'+u((o=i.t||e&&e.t,r={hash:{scope:"outcomes.criterion_header"},data:n},o?o.call(e,"insert_criterion_rating","Insert criterion rating",r):d.call(e,"t","insert_criterion_rating","Insert criterion rating",r)))+'">\n        '+u((o=i.t||e&&e.t,r={hash:{scope:"outcomes.criterion_header"},data:n},o?o.call(e,"insert_rating","Insert",r):d.call(e,"t","insert_rating","Insert",r)))+'\n        <span class="arrow-icon"></span>\n      </a>\n    </div>\n  </div>\n</th>\n'
+return l}))
+A.registerPartial("ui/shared/outcome-content-view/jst/_criterionHeader.handlebars",R["/work/canvas-deploy/generated/ui/shared/outcome-content-view/jst/-criterionHeader"])
+var P=R[j]
+var V=v.a.default
+var U=V.template,W=V.templates=V.templates||{}
+var z="/work/canvas-deploy/generated/ui/shared/outcome-content-view/jst/-criterion"
+W[z]=U((function(t,e,i,a,n){this.compilerInfo=[4,">= 1.0.0"]
+i=this.merge(i,t.helpers)
+n=n||{}
+var s,o,r,l="",c=i.helperMissing,u=this.escapeExpression,d="function"
+l+='<td class="rating">\n  <div class="rating-wrap">\n    <div class="show" aria-expanded="true">\n      <span class="points">'+u((o=i.n||e&&e.n,r={hash:{precision:2,strip_insignificant_zeros:true},data:n},o?o.call(e,e&&e.points,r):c.call(e,"n",e&&e.points,r)))+"</span> "+u((o=i.t||e&&e.t,r={hash:{scope:"outcomes.criterion"},data:n},o?o.call(e,"points","Points",r):c.call(e,"t","points","Points",r)))+'\n      <a\n        href="#"\n        class="edit_rating active"\n        title=\''+u((o=i.t||e&&e.t,r={hash:{description:e&&e.description,scope:"outcomes.criterion"},data:n},o?o.call(e,"edit_criterion_rating_title",'Edit "%{description}" criterion rating',r):c.call(e,"t","edit_criterion_rating_title",'Edit "%{description}" criterion rating',r)))+"'\n        aria-label='"+u((o=i.t||e&&e.t,r={hash:{description:e&&e.description,scope:"outcomes.criterion"},data:n},o?o.call(e,"edit_criterion_rating_title",'Edit "%{description}" criterion rating',r):c.call(e,"t","edit_criterion_rating_title",'Edit "%{description}" criterion rating',r)))+"'\n        role=button\n        tabindex=0\n        aria-controls=\"edit_rating_"
+if(o=i._index)s=o.call(e,{hash:{},data:n})
+else{o=e&&e._index
+s=typeof o===d?o.call(e,{hash:{},data:n}):o}l+=u(s)+'"><i class="icon-edit"></i></a>\n    </div>\n    <div\n      class="edit"\n      id="edit_rating_'
+if(o=i._index)s=o.call(e,{hash:{},data:n})
+else{o=e&&e._index
+s=typeof o===d?o.call(e,{hash:{},data:n}):o}l+=u(s)+'"\n      role=region\n      aria-expanded="false"\n      tabindex=-1\n    >\n      <div class="row-fluid" class="outcomes-edit-row">\n        <div class="span7">\n          <input type="text" name="ratings['
+if(o=i._index)s=o.call(e,{hash:{},data:n})
+else{o=e&&e._index
+s=typeof o===d?o.call(e,{hash:{},data:n}):o}l+=u(s)+'][description]" class="outcome_rating_description" value="'
+if(o=i.description)s=o.call(e,{hash:{},data:n})
+else{o=e&&e.description
+s=typeof o===d?o.call(e,{hash:{},data:n}):o}l+=u(s)+'" aria-label="'+u((o=i.t||e&&e.t,r={hash:{scope:"outcomes.criterion"},data:n},o?o.call(e,"rating_description","Criterion rating description",r):c.call(e,"t","rating_description","Criterion rating description",r)))+'">\n        </div>\n        <div class="span4 offset1">\n          <input type="text" name="ratings['
+if(o=i._index)s=o.call(e,{hash:{},data:n})
+else{o=e&&e._index
+s=typeof o===d?o.call(e,{hash:{},data:n}):o}l+=u(s)+'][points]" style="width: 20px;" class="outcome_rating_points" value="'+u((o=i.n||e&&e.n,r={hash:{precision:2,strip_insignificant_zeros:true},data:n},o?o.call(e,e&&e.points,r):c.call(e,"n",e&&e.points,r)))+'" aria-label="'+u((o=i.t||e&&e.t,r={hash:{scope:"outcomes.criterion"},data:n},o?o.call(e,"criterion_rating_points","Criterion rating points",r):c.call(e,"t","criterion_rating_points","Criterion rating points",r)))+'"> <span class="outcomes-points-label">'+u((o=i.t||e&&e.t,r={hash:{scope:"outcomes.criterion"},data:n},o?o.call(e,"pts","pts",r):c.call(e,"t","pts","pts",r)))+'</span>\n        </div>\n      </div>\n\n      <div class="buttons row-fluid">\n        <div class="span12">\n          <div class="button-container">\n            <button\n              class="btn btn-small delete_rating_link"\n              type="button"\n            >'+u((o=i.t||e&&e.t,r={hash:{scope:"outcomes.criterion"},data:n},o?o.call(e,"delete_criterion","Delete",r):c.call(e,"t","delete_criterion","Delete",r)))+'</button>\n            <button\n              class="btn btn-small btn-primary save_rating_link"\n              aria-controls="edit_rating_'
+if(o=i._index)s=o.call(e,{hash:{},data:n})
+else{o=e&&e._index
+s=typeof o===d?o.call(e,{hash:{},data:n}):o}l+=u(s)+'"\n              type="button"\n            >'+u((o=i.t||e&&e.t,r={hash:{scope:"outcomes.criterion"},data:n},o?o.call(e,"close_rating","Ok",r):c.call(e,"t","close_rating","Ok",r)))+"</button>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</td>\n"
+return l}))
+V.registerPartial("ui/shared/outcome-content-view/jst/_criterion.handlebars",W["/work/canvas-deploy/generated/ui/shared/outcome-content-view/jst/-criterion"])
+var J=W[z]
+var H=v.a.default
+var Y=H.template,B=H.templates=H.templates||{}
+var X="/work/canvas-deploy/generated/ui/shared/outcome-content-view/jst/outcomeForm"
+B[X]=Y((function(t,e,i,a,n){this.compilerInfo=[4,">= 1.0.0"]
+i=this.merge(i,t.helpers)
+a=this.merge(a,t.partials)
+n=n||{}
+var s,o,r,l="",c=this,u="function",d=this.escapeExpression,h=i.helperMissing
+function p(t,e){var a,n,s,o=""
+o+='\n    <label>\n      <div style="display: flex">\n        <div id=\'criterion_rating_label\' style="margin-top: 0.65rem">'+d((n=i.t||t&&t.t,s={hash:{scope:"outcomes.outcome_form"},data:e},n?n.call(t,"criterion","Criterion ratings",s):h.call(t,"t","criterion","Criterion ratings",s)))+':</div>\n        <div id="react-info-link" />\n      </div>\n    </label>\n    <table class="criterion" aria-labelledby=\'criterion_rating_label\'>\n      <thead>\n        <tr>\n          '
+a=(n=i.eachWithIndex||t&&t.eachWithIndex,s={hash:{},inverse:c.noop,fn:c.program(2,m,e),data:e},n?n.call(t,t&&t.ratings,s):h.call(t,"eachWithIndex",t&&t.ratings,s));(a||0===a)&&(o+=a)
+o+='\n          <th class="total" aria-label=\''+d((n=i.t||t&&t.t,s={hash:{i18n_inferred_key:true},data:e},n?n.call(t,"total_points_44d76792","Total Points",s):h.call(t,"t","total_points_44d76792","Total Points",s)))+'\'>\n            <h5 class="total">'+d((n=i.t||t&&t.t,s={hash:{i18n_inferred_key:true},data:e},n?n.call(t,"total_points_44d76792","Total Points",s):h.call(t,"t","total_points_44d76792","Total Points",s)))+"</h5>\n          </th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          "
+a=(n=i.eachWithIndex||t&&t.eachWithIndex,s={hash:{},inverse:c.noop,fn:c.program(4,f,e),data:e},n?n.call(t,t&&t.ratings,s):h.call(t,"eachWithIndex",t&&t.ratings,s));(a||0===a)&&(o+=a)
+o+='\n        <td class="total">\n          <div class="points_possible">\n            '
+a=(n=i.n||t&&t.n,s={hash:{precision:2,strip_insignificant_zeros:true},data:e},n?n.call(t,t&&t.points_possible,s):h.call(t,"n",t&&t.points_possible,s))
+o+=d((n=i.t||t&&t.t,s={hash:{n_points_possible_precision_2_st:a,i18n_inferred_key:true},data:e},n?n.call(t,"n_points_possible_precision_2_st_points_bc3748df","%{n_points_possible_precision_2_st} Points",s):h.call(t,"t","n_points_possible_precision_2_st_points_bc3748df","%{n_points_possible_precision_2_st} Points",s)))+'\n          </div>\n        </td>\n        </tr>\n      </tbody>\n    </table>\n    <div>\n      <label for="mastery_points" style="display: inline">'+d((n=i.t||t&&t.t,s={hash:{scope:"outcomes.outcome_form"},data:e},n?n.call(t,"mastery","Mastery at",s):h.call(t,"t","mastery","Mastery at",s)))+':</label>\n      <input type="text" name="mastery_points" style="width: 20px;" class="mastery_points" id="mastery_points" value="'+d((n=i.n||t&&t.n,s={hash:{precision:2,strip_insignificant_zeros:true},data:e},n?n.call(t,t&&t.mastery_points,s):h.call(t,"n",t&&t.mastery_points,s)))+'">\n    </div>\n    <div>\n      <label for="calculation_method" style="display: inline">'+d((n=i.t||t&&t.t,s={hash:{scope:"outcomes.outcome_form"},data:e},n?n.call(t,"calculation_method","Calculation Method",s):h.call(t,"t","calculation_method","Calculation Method",s)))+':</label>\n      <select name="calculation_method" class="calculation_method" id="calculation_method" data-calculation-method="'
+if(n=i.calculation_method)a=n.call(t,{hash:{},data:e})
+else{n=t&&t.calculation_method
+a=typeof n===u?n.call(t,{hash:{},data:e}):n}o+=d(a)+'" value="'
+if(n=i.calculation_method)a=n.call(t,{hash:{},data:e})
+else{n=t&&t.calculation_method
+a=typeof n===u?n.call(t,{hash:{},data:e}):n}o+=d(a)+'">\n        '
+a=i.each.call(t,t&&t.calculationMethods,{hash:{},inverse:c.noop,fn:c.programWithDepth(6,_,e,t),data:e});(a||0===a)&&(o+=a)
+o+='\n      </select>\n    </div>\n    <div class="content-box">\n      <div class="grid-row">\n        \x3c!-- Hook for OutcomeCalculationMethodFormView --\x3e\n        <div class="col-xs-12 outcome-calculation-method-form"></div>\n      </div>\n    </div>\n  '
+return o}function m(t,e){var n,s=""
+s+="\n            "
+n=c.invokePartial(a["ui/shared/outcome-content-view/jst/_criterionHeader.handlebars"],"ui/shared/outcome-content-view/jst/_criterionHeader.handlebars",t,i,a,e);(n||0===n)&&(s+=n)
+s+="\n          "
+return s}function f(t,e){var n,s=""
+s+="\n            "
+n=c.invokePartial(a["ui/shared/outcome-content-view/jst/_criterion.handlebars"],"ui/shared/outcome-content-view/jst/_criterion.handlebars",t,i,a,e);(n||0===n)&&(s+=n)
+s+="\n          "
+return s}function _(t,e,a){var n,s,o,r=""
+r+='\n          <option value="'+d((n=null==e||false===e?e:e.key,typeof n===u?n.apply(t):n))+'" '+d((s=i.selectedIf||a&&a.selectedIf,o={hash:{},data:e},s?s.call(t,null==e||false===e?e:e.key,a&&a.calculation_method,o):h.call(t,"selectedIf",null==e||false===e?e:e.key,a&&a.calculation_method,o)))+">\n            "
+if(s=i.friendlyCalculationMethod)n=s.call(t,{hash:{},data:e})
+else{s=t&&t.friendlyCalculationMethod
+n=typeof s===u?s.call(t,{hash:{},data:e}):s}r+=d(n)+"\n          </option>\n        "
+return r}l+='<form action="'
+if(o=i.url)s=o.call(e,{hash:{},data:n})
+else{o=e&&e.url
+s=typeof o===u?o.call(e,{hash:{},data:n}):o}l+=d(s)+'" class="learning_outcome" method="post">\n\n  <label class="span3" for="title">'+d((o=i.t||e&&e.t,r={hash:{scope:"outcomes.outcome_form"},data:n},o?o.call(e,"title","Name this outcome",r):h.call(e,"t","title","Name this outcome",r)))+':</label>\n  <input class="outcome_title span3" name="title" id=title size="50" type="text" value="'
+if(o=i.title)s=o.call(e,{hash:{},data:n})
+else{o=e&&e.title
+s=typeof o===u?o.call(e,{hash:{},data:n}):o}l+=d(s)+'" placeholder="'+d((o=i.t||e&&e.t,r={hash:{i18n_inferred_key:true},data:n},o?o.call(e,"new_outcome_7fba8c7d","New Outcome",r):h.call(e,"t","new_outcome_7fba8c7d","New Outcome",r)))+'">\n\n  <label class="span3" for="display_name">'+d((o=i.t||e&&e.t,r={hash:{scope:"outcomes.outcome_form"},data:n},o?o.call(e,"display_name","Friendly name (optional)",r):h.call(e,"t","display_name","Friendly name (optional)",r)))+':</label>\n  <input class="outcome_display_name span3" name="display_name" id=display_name size="50" type="text" value="'
+if(o=i.display_name)s=o.call(e,{hash:{},data:n})
+else{o=e&&e.display_name
+s=typeof o===u?o.call(e,{hash:{},data:n}):o}l+=d(s)+'">\n\n  <label for="description">'+d((o=i.t||e&&e.t,r={hash:{scope:"outcomes.outcome_form"},data:n},o?o.call(e,"description","Describe this outcome",r):h.call(e,"t","description","Describe this outcome",r)))+':</label>\n\n  <textarea cols="40" name="description" id=description rows="20" style="display: none; width: 100%; height: 150px;">'
+if(o=i.description)s=o.call(e,{hash:{},data:n})
+else{o=e&&e.description
+s=typeof o===u?o.call(e,{hash:{},data:n}):o}l+=d(s)+"</textarea>\n\n  "
+s=i.unless.call(e,e&&e.hideMasteryScale,{hash:{},inverse:c.noop,fn:c.program(1,p,n),data:n});(s||0===s)&&(l+=s)
+l+='\n  <div class="align-right">\n    <button type="button" class="btn cancel_button">'+d((o=i.t||e&&e.t,r={hash:{scope:"outcomes.outcome_form"},data:n},o?o.call(e,"#buttons.cancel","Cancel",r):h.call(e,"t","#buttons.cancel","Cancel",r)))+'</button>\n    <button type="submit" class="btn btn-primary submit_button">'+d((o=i.t||e&&e.t,r={hash:{scope:"outcomes.outcome_form"},data:n},o?o.call(e,"#buttons.save","Save",r):h.call(e,"t","#buttons.save","Save",r)))+"</button>\n  </div>\n</form>\n"
+return l}))
+var q=B[X]
+var K=i("RtDj")
+var Q=i("q1tI")
+var Z=i.n(Q)
+var tt=i("i8i4")
+var et=i.n(tt)
+i("17x9")
+var it=i("Xx/m")
+var at=i("SEvU")
+const nt=Object(s["useScope"])("confirmOutcomeEditModal")
+const st=({changed:t,hasUpdateableRubrics:e})=>t&&e
+const ot=({assessed:t,changed:e,modifiedFields:i})=>e&&t&&(i.masteryPoints||i.scoringMethod)
+function rt(t){if(!st(t)&&!ot(t)){setTimeout(t.onConfirm)
+return}const e=document.createElement("div")
+e.setAttribute("class","confirm-outcome-edit-modal-container")
+document.body.appendChild(e)
+function i(t){t&&t.show()}et.a.render(Z.a.createElement(lt,Object.assign({},t,{parent:()=>e,ref:i})),e)}class lt extends Q["Component"]{constructor(...t){super(...t)
+this.state={show:false}
+this.onConfirm=()=>{setTimeout(this.props.onConfirm)
+this.hide()}
+this.onCancel=()=>{this.hide()}}show(){this.setState({show:true})}hide(){this.setState({show:false},()=>{const t=this.props.parent?this.props.parent():null
+t&&et.a.unmountComponentAtNode(t)})}render(){const{assessed:t,changed:e,hasUpdateableRubrics:i,modifiedFields:a}=this.props
+return Object(K["a"])(at["a"],{label:nt.t("Confirm Edit Outcome"),open:this.state.show,onDismiss:this.onCancel,size:"small"},void 0,Object(K["a"])(at["a"].Body,{},void 0,Object(K["a"])("div",{},void 0,Object(K["a"])("ul",{},void 0,st({changed:e,hasUpdateableRubrics:i})&&Object(K["a"])("li",{},void 0,nt.t("This will update all rubrics using this outcome that have not yet been assessed")),ot({assessed:t,changed:e,modifiedFields:a})&&Object(K["a"])("li",{},void 0,nt.t("You’ve updated the scoring criteria; this will affect all students previously assessed using this outcome"))))),Object(K["a"])(at["a"].Footer,{},void 0,Object(K["a"])(it["a"],{onClick:this.onCancel,id:"cancel-outcome-edit-modal"},void 0,nt.t("Cancel"))," ",Object(K["a"])(it["a"],{onClick:this.onConfirm,id:"confirm-outcome-edit-modal",color:"primary"},void 0,nt.t("Save"))))}}var ct=i("Mmr1")
+var ut=i("Zgll")
+var dt=i("ZbPE")
+var ht=i("msMH")
+var pt=i("gW/U")
+var mt=i("Dibh")
+var ft,_t
+const gt=Object(s["useScope"])("outcomesCriterionInfo")
+const vt=()=>gt.t("\nLearning outcomes can be included in assignment rubrics as an easy way to assess\nmastery of outcomes aligned to specific assignments.  When you define a learning\noutcome, you should also define a criterion that can be used when building\nassignment rubrics.  Define as many rubric columns as you need, and specify a\npoint threshold that will be used to define mastery of this outcome.\n")
+class yt extends Z.a.Component{constructor(t){super(t)
+this.handleButtonClick=()=>{this.setState(t=>({open:!t.open}))}
+this.state={open:false}}renderCloseButton(){return Object(K["a"])(ct["a"],{placement:"end",offset:"medium",onClick:this.handleButtonClick,screenReaderLabel:gt.t("Close")})}renderModal(){if(this.state.open)return Object(K["a"])(mt["a"],{as:"form",open:this.state.open,onDismiss:()=>{this.setState({open:false})},size:"medium",label:gt.t("Criterion Ratings"),shouldCloseOnDocumentClick:true},void 0,Object(K["a"])(mt["a"].Header,{},void 0,this.renderCloseButton(),Object(K["a"])(ht["a"],{},void 0,gt.t("Criterion Ratings"))),Object(K["a"])(mt["a"].Body,{},void 0,Object(K["a"])(dt["a"],{lineHeight:"double"},void 0,vt())))}render(){return Object(K["a"])("span",{},void 0,Object(K["a"])(ut["a"],{renderIcon:ft||(ft=Object(K["a"])(pt["a"],{})),withBackground:false,withBorder:false,onClick:this.handleButtonClick,screenReaderLabel:gt.t("More Information About Ratings")}),this.renderModal())}}const bt=t=>{et.a.render(_t||(_t=Object(K["a"])(yt,{})),t)}
+i("ESjL")
+const wt=Object(s["useScope"])("OutcomeView")
+class xt extends _{static initClass(){this.child("calculationMethodFormView","div.outcome-calculation-method-form")
+this.prototype.events=h.a.extend({"click .edit_rating":"editRating","click .delete_rating_link":"deleteRating","click .save_rating_link":"saveRating","click .insert_rating":"insertRating","change .calculation_method":"updateCalcMethod","keyup .mastery_points":"changeMasteryPoints"},_.prototype.events)
+this.prototype.validations=h.a.extend({display_name(t){if(t.display_name.length>255)return wt.t("length_error","Must be 255 characters or less")},mastery_points(t){if(!ENV.ACCOUNT_LEVEL_MASTERY_SCALES&&(h.a.isNaN(t.mastery_points)||t.mastery_points<0))return wt.t("mastery_error","Must be greater than or equal to 0")}},_.prototype.validations)}initialize({setQuizMastery:t,useForScoring:e,inFindDialog:i}){this.setQuizMastery=t
+this.useForScoring=e
+this.inFindDialog=i
+this.calculationMethodFormView=new D({model:this.model})
+this.originalConfirmableValues=this.getFormData()
+super.initialize(...arguments)}submit(t){null!=t&&t.preventDefault()
+const e=this.getFormData()
+return rt({changed:!h.a.isEqual(e,this.originalConfirmableValues),assessed:this.model.get("assessed"),hasUpdateableRubrics:this.model.get("has_updateable_rubrics"),modifiedFields:this.getModifiedFields(e),onConfirm:e=>super.submit(t)})}getModifiedFields(t){if(ENV.ACCOUNT_LEVEL_MASTERY_SCALES)return{}
+return{masteryPoints:t.mastery_points!==u["a"].parse(this.originalConfirmableValues.mastery_points),scoringMethod:!this.scoringMethodsEqual(t,this.originalConfirmableValues)}}scoringMethodsEqual(t,e){if(t.calculation_method!==e.calculation_method)return false
+if(["highest","latest"].includes(t.calculation_method))return true
+return u["a"].parse(t.calculation_int)===u["a"].parse(e.calculation_int)}edit(t){super.edit(t)
+this.originalConfirmableValues=this.getFormData()
+return setTimeout(()=>this.originalConfirmableValues=this.getFormData(),50)}getFormData(){const t=super.getFormData()
+if(ENV.ACCOUNT_LEVEL_MASTERY_SCALES){delete t.mastery_points
+delete t.ratings}else{t.mastery_points=u["a"].parse(t.mastery_points)
+t.ratings=h.a.map(t.ratings,t=>h.a.extend(t,{points:u["a"].parse(t.points)}));["highest","latest"].includes(t.calculation_method)?delete t.calculation_int:t.calculation_int=parseInt(u["a"].parse(t.calculation_int),10)}return t}editRating(t){t.preventDefault()
+const e=n()(t.currentTarget).closest(".rating").index()
+const i=n()(`.criterion thead tr > th:nth-child(${e+1})`)
+const a=n()(t.currentTarget).parents(".show:first")
+const s=a.next()
+a.attr("aria-expanded","false").hide()
+s.attr("aria-expanded","true").show()
+i.find("h5").attr("aria-expanded","false").hide()
+return s.find(".outcome_rating_description").focus()}deleteRating(t){t.preventDefault()
+if(this.$(".rating").length>1){const e=n()(t.currentTarget)
+const i=e.closest(".rating").index()
+const a=n()(`.criterion thead tr > th:nth-child(${i+1})`)
+let s=e.closest(".rating").prev().find(".insert_rating")
+0===s.length&&(s=e.closest(".rating").next().find(".edit_rating"))
+a.remove()
+e.closest("td").remove()
+s.focus()
+return this.updateRatings()}}saveRating(t){t.preventDefault()
+const e=n()(t.currentTarget).closest(".rating").index()
+const i=n()(`.criterion thead tr > th:nth-child(${e+1})`)
+const a=n()(t.currentTarget).parents(".edit:first")
+const s=a.prev()
+i.find("h5").text(a.find("input.outcome_rating_description").val())
+let o=u["a"].parse(a.find("input.outcome_rating_points").val())
+o=h.a.isNaN(o)?0:wt.n(o,{precision:2,strip_insignificant_zeros:true})
+s.find(".points").text(o)
+a.attr("aria-expanded","false").hide()
+s.attr("aria-expanded","true").show()
+i.find("h5").attr("aria-expanded","true").show()
+s.find(".edit_rating").focus()
+return this.updateRatings()}insertRating(t){t.preventDefault()
+const e=n()(J({description:"",points:"",_index:99}))
+const i=n()(t.currentTarget).closest(".rating-header").index()
+const a=n()(P({description:"",_index:99}))
+const s=n()(".criterion tbody tr")
+n()(t.currentTarget).closest(".rating-header").after(a)
+s.find(`> td:nth-child(${i+1})`).after(e)
+e.find(".show").hide().next().show(200)
+a.hide().show(200)
+e.find(".edit input:first").focus()
+return this.updateRatings()}updateCalcMethod(t){null!=t&&t.preventDefault()
+return this.model.set({calculation_method:n()(t.target).val()})}changeMasteryPoints(t){this.timeout&&clearTimeout(this.timeout)
+return this.timeout=setTimeout(()=>{const e=u["a"].parse(n()(t.target).val())
+if(h.a.isNaN(e))return
+if(e>=0&&e<=this.model.get("points_possible")){this.model.set({mastery_points:e})
+this.calculationMethodFormView&&this.calculationMethodFormView.render()}},500)}updateRatings(){let t=0
+const e=this.$(".rating")
+for(let i=0;i<e.length;i++){const a=e[i]
+const s=n()(a).find(".outcome_rating_points").val()||0
+t=h.a.max([t,u["a"].parse(s)])
+for(const t of Array.from(n()(a).find("input")))n()(t).attr("name",t.name.replace(/\[[0-9]+\]/,`[${i}]`))}const i=this.$(".points_possible")
+i.html(n.a.raw(wt.t("%{points_possible} Points",{points_possible:wt.n(t,{precision:2,strip_insignificant_zeros:true})})))
+return this.model.set({points_possible:t})}screenreaderTitleFocus(){return this.$(".screenreader-outcome-title").focus()}render(){const t=this.model.present()
+t.html_url=`${ENV.CONTEXT_URL_ROOT}/outcomes/${t.id}`
+this.calculationMethodFormView.state=this.state
+switch(this.state){case"edit":case"add":this.$el.html(q(h.a.extend(t,{calculationMethods:this.model.calculationMethods(),hideMasteryScale:ENV.ACCOUNT_LEVEL_MASTERY_SCALES})))
+ENV.ACCOUNT_LEVEL_MASTERY_SCALES||bt(this.$el.find("#react-info-link")[0])
+this.readyForm()
+break
+case"loading":this.$el.empty()
+break
+default:t.points_possible||(t.points_possible=0)
+t.mastery_points||(t.mastery_points=0)
+if(ENV.ACCOUNT_LEVEL_MASTERY_SCALES){var e,i
+if(null!==(e=ENV.MASTERY_SCALE)&&void 0!==e&&e.outcome_proficiency){t.ratings=ENV.MASTERY_SCALE.outcome_proficiency.ratings
+t.mastery_points=t.ratings.find(t=>t.mastery).points
+t.points_possible=Math.max(...t.ratings.map(t=>t.points))}if(null!==(i=ENV.MASTERY_SCALE)&&void 0!==i&&i.outcome_calculation_method){const e=new k["a"](ENV.MASTERY_SCALE.outcome_calculation_method)
+h.a.extend(t,ENV.MASTERY_SCALE.outcome_calculation_method,e.present())}}var a=!this.readOnly()&&this.model.canManage()
+var n=a&&this.model.isNative()
+var s=a&&this.model.outcomeLink.can_unlink
+this.$el.html(F(h.a.extend(t,{can_manage:a,can_edit:n,can_unlink:s,setQuizMastery:this.setQuizMastery,useForScoring:this.useForScoring,doNotRenderTitleLink:ENV.IS_LARGE_ROSTER||this.inFindDialog,hideMasteryScale:ENV.ACCOUNT_LEVEL_MASTERY_SCALES&&!this.useForScoring&&!this.setQuizMastery,assessedInContext:!this.readOnly()&&(this.model.outcomeLink.assessed||this.model.isNative()&&this.model.get("assessed"))})))}this.$("input:first").focus()
+this.screenreaderTitleFocus()
+this._afterRender()
+return this}}xt.initClass()
+var Ot=v.a.default
+var St=Ot.template,Et=Ot.templates=Ot.templates||{}
+var Ct="/work/canvas-deploy/generated/ui/shared/outcome-content-view/jst/outcomeGroup"
+Et[Ct]=St((function(t,e,i,a,n){this.compilerInfo=[4,">= 1.0.0"]
+i=this.merge(i,t.helpers)
+n=n||{}
+var s,o,r="",l=i.helperMissing,c=this.escapeExpression,u="function",d=this
+function h(t,e){var a,n,s=""
+s+='\n  <a href="#" style="float:left" class="move_button move_group_button ui-button ui-widget ui-state-default ui-corner-all" role="button">\n    <span aria-hidden="true">'+c((a=i.t||t&&t.t,n={hash:{i18n_inferred_key:true},data:e},a?a.call(t,"move_abf00365","Move",n):l.call(t,"t","move_abf00365","Move",n)))+'</span>\n    <span class="screenreader-only">'+c((a=i.t||t&&t.t,n={hash:{i18n_inferred_key:true},data:e},a?a.call(t,"move_outcome_group_cfa1a505","Move Outcome Group",n):l.call(t,"t","move_outcome_group_cfa1a505","Move Outcome Group",n)))+'</span>\n  </a>\n  <a href="#" style="float:left" class="edit_button edit_group_button ui-button ui-widget ui-state-default ui-corner-all" role="button">\n    <span aria-hidden="true">'+c((a=i.t||t&&t.t,n={hash:{scope:"outcomes.outcome_group"},data:e},a?a.call(t,"links.edit_outcome_group","Edit",n):l.call(t,"t","links.edit_outcome_group","Edit",n)))+'</span>\n    <span class="screenreader-only">'+c((a=i.t||t&&t.t,n={hash:{i18n_inferred_key:true},data:e},a?a.call(t,"edit_outcome_group_f82e0210","Edit Outcome Group",n):l.call(t,"t","edit_outcome_group_f82e0210","Edit Outcome Group",n)))+'</span>\n  </a>\n  <a href="#" style="float:left" class="delete_button delete_group_button ui-button ui-widget ui-state-default ui-corner-all" role="button">\n    <span aria-hidden="true">'+c((a=i.t||t&&t.t,n={hash:{scope:"outcomes.outcome_group"},data:e},a?a.call(t,"links.delete_outcome_group","Delete",n):l.call(t,"t","links.delete_outcome_group","Delete",n)))+'</span>\n    <span class="screenreader-only">'+c((a=i.t||t&&t.t,n={hash:{i18n_inferred_key:true},data:e},a?a.call(t,"delete_outcome_group_6b399d34","Delete Outcome Group",n):l.call(t,"t","delete_outcome_group_6b399d34","Delete Outcome Group",n)))+"</span>\n  </a>\n"
+return s}r+='<h2 class="title">\n  <i class="icon-folder"></i>\n  '
+if(o=i.title)s=o.call(e,{hash:{},data:n})
+else{o=e&&e.title
+s=typeof o===u?o.call(e,{hash:{},data:n}):o}r+=c(s)+'\n</h2>\n<div class="description">\n  '
+if(o=i.description)s=o.call(e,{hash:{},data:n})
+else{o=e&&e.description
+s=typeof o===u?o.call(e,{hash:{},data:n}):o}(s||0===s)&&(r+=s)
+r+="\n</div>\n\n"
+s=i["if"].call(e,e&&e.canManage,{hash:{},inverse:d.noop,fn:d.program(1,h,n),data:n});(s||0===s)&&(r+=s)
+r+="\n"
+return r}))
+var Mt=Et[Ct]
+var kt=v.a.default
+var Dt=kt.template,It=kt.templates=kt.templates||{}
+var Tt="/work/canvas-deploy/generated/ui/shared/outcome-content-view/jst/outcomeGroupForm"
+It[Tt]=Dt((function(t,e,i,a,n){this.compilerInfo=[4,">= 1.0.0"]
+i=this.merge(i,t.helpers)
+n=n||{}
+var s,o,r,l="",c="function",u=this.escapeExpression,d=i.helperMissing
+l+='<form action="'
+if(o=i.url)s=o.call(e,{hash:{},data:n})
+else{o=e&&e.url
+s=typeof o===c?o.call(e,{hash:{},data:n}):o}l+=u(s)+'" class="outcome_group" method="post">\n  <label for="outcome_group_title">'+u((o=i.t||e&&e.t,r={hash:{scope:"outcomes.outcome_group_form"},data:n},o?o.call(e,"title","Name this group",r):d.call(e,"t","title","Name this group",r)))+':</label>\n  <input id="outcome_group_title" class="outcome_title" name="title" size="50" type="text" placeholder="'+u((o=i.t||e&&e.t,r={hash:{i18n_inferred_key:true},data:n},o?o.call(e,"new_outcome_group_af59f145","New Outcome Group",r):d.call(e,"t","new_outcome_group_af59f145","New Outcome Group",r)))+'" value="'
+if(o=i.title)s=o.call(e,{hash:{},data:n})
+else{o=e&&e.title
+s=typeof o===c?o.call(e,{hash:{},data:n}):o}l+=u(s)+'">\n  <label for="outcome_group_description">'+u((o=i.t||e&&e.t,r={hash:{scope:"outcomes.outcome_group_form"},data:n},o?o.call(e,"group_description","Describe this group",r):d.call(e,"t","group_description","Describe this group",r)))+':</label>\n  <textarea cols="40" id="outcome_group_description" name="description" rows="20" style="width: 100%; height: 150px;">'
+if(o=i.description)s=o.call(e,{hash:{},data:n})
+else{o=e&&e.description
+s=typeof o===c?o.call(e,{hash:{},data:n}):o}l+=u(s)+'</textarea>\n  <div class="button-container pull-right">\n    <button type="button" class="btn cancel_button">'+u((o=i.t||e&&e.t,r={hash:{scope:"outcomes.outcome_group_form"},data:n},o?o.call(e,"#buttons.cancel","Cancel",r):d.call(e,"t","#buttons.cancel","Cancel",r)))+'</button>\n    <button type="submit" class="btn btn-primary submit_button">'+u((o=i.t||e&&e.t,r={hash:{scope:"outcomes.outcome_group_form"},data:n},o?o.call(e,"#buttons.save","Save",r):d.call(e,"t","#buttons.save","Save",r)))+"</button>\n  </div>\n</form>\n"
+return l}))
+var Nt=It[Tt]
+class Lt extends _{render(){const t=this.model.toJSON()
+switch(this.state){case"edit":case"add":this.$el.html(Nt(t))
+this.readyForm()
+break
+case"loading":this.$el.empty()
+break
+default:var e=!this.readOnly()&&this.model.get("can_edit")
+this.$el.html(Mt(h.a.extend(t,{canManage:e})))}this.$("input:first").focus()
+return this}}var Ft=i("BxZT")
+var At=i("s9Pr")
+var $t=function(){function t(){}t.prototype.find=function(){var t,e
+t=null
+e=Object(At["a"])(ENV.context_asset_string||"")
+t=new c["a"]
+t.url="/api/v1/"+e[0]+"/"+e[1]+"/root_outcome_group"
+t.fetch()
+return[t]}
+return t}()
+var Gt=i("dbrX")
+var Rt=v.a.default
+var jt=Rt.template,Pt=Rt.templates=Rt.templates||{}
+var Vt="/work/canvas-deploy/generated/ui/shared/outcome-content-view/jst/MoveOutcomeDialog"
+Pt[Vt]=jt((function(t,e,i,a,n){this.compilerInfo=[4,">= 1.0.0"]
+i=this.merge(i,t.helpers)
+n=n||{}
+var s,o,r="",l=i.helperMissing,c=this.escapeExpression
+r+="<div>\n  <form class='form-dialog'>\n    <div class='form-dialog-content'>\n    </div>\n    <div class='form-controls'>\n      <input type='button' class='btn' value='"+c((s=i.t||e&&e.t,o={hash:{i18n_inferred_key:true},data:n},s?s.call(e,"cancel_caeb1e68","Cancel",o):l.call(e,"t","cancel_caeb1e68","Cancel",o)))+"'>\n      <input type='submit' class='btn btn-primary' value='"+c((s=i.t||e&&e.t,o={hash:{i18n_inferred_key:true},data:n},s?s.call(e,"move_abf00365","Move",o):l.call(e,"t","move_abf00365","Move",o)))+"'>\n    </div>\n  <form>\n</div>"
+return r}))
+Gt["a"].loadStylesheetForJST({id:"9f",bundle:"jst/MoveOutcomeDialog"})
+var Ut=Pt[Vt]
+var Wt=v.a.default
+var zt=Wt.template,Jt=Wt.templates=Wt.templates||{}
+var Ht="/work/canvas-deploy/generated/ui/shared/outcome-content-view/jst/noOutcomesWarning"
+Jt[Ht]=zt((function(t,e,i,a,n){this.compilerInfo=[4,">= 1.0.0"]
+i=this.merge(i,t.helpers)
+n=n||{}
+var s,o,r,l,c="",u=i.helperMissing,d=this.escapeExpression
+c+='<div class="no-outcomes-warning">\n  <div class="alert" role="alert">\n    '
+s=(r=i.__i18nliner_escape||e&&e.__i18nliner_escape,l={hash:{},data:n},r?r.call(e,e&&e.noOutcomesLinkLabel,l):u.call(e,"__i18nliner_escape",e&&e.noOutcomesLinkLabel,l))
+o=(r=i.__i18nliner_escape||e&&e.__i18nliner_escape,l={hash:{},data:n},r?r.call(e,e&&e.addOutcomesUrl,l):u.call(e,"__i18nliner_escape",e&&e.addOutcomesUrl,l))
+s=(r=i.__i18nliner_concat||e&&e.__i18nliner_concat,l={hash:{},data:n},r?r.call(e,'<a href="',o,'" aria-label="',s,'">$1</a>',l):u.call(e,"__i18nliner_concat",'<a href="',o,'" aria-label="',s,'">$1</a>',l))
+c+=d((r=i.t||e&&e.t,l={hash:{w0:s,i18n_inferred_key:true},data:n},r?r.call(e,"you_have_no_outcomes_click_here_to_create_one_ebf262a3","You have no outcomes. *Click here* to create one.",l):u.call(e,"t","you_have_no_outcomes_click_here_to_create_one_ebf262a3","You have no outcomes. *Click here* to create one.",l)))+"\n  </div>\n</div>\n"
+return c}))
+var Yt=Jt[Ht]
+var Bt=i("2gWY")
+var Xt=i("XKWA")
+const qt=Object(s["useScope"])("contentview")
+class Kt extends r.a.View{initialize({readOnly:t,setQuizMastery:e,useForScoring:i,instructionsTemplate:a,renderInstructions:n,inFindDialog:s}){this.readOnly=t
+this.inFindDialog=s
+this.setQuizMastery=e
+this.useForScoring=i
+this.instructionsTemplate=a
+this.renderInstructions=n
+super.initialize(...arguments)
+Object(Xt["subscribe"])("renderNoOutcomeWarning",this.renderNoOutcomeWarning.bind(this))
+Object(Xt["subscribe"])("clearNoOutcomeWarning",this.clearNoOutcomeWarning.bind(this))
+return this.render()}show(t){if(null!=t?t.isNew():void 0)return
+return this._show({model:t})}add(t){this._show({model:t,state:"add"})
+this.trigger("adding")
+return this.innerView.on("addSuccess",t=>this.trigger("addSuccess",t))}_show(t){t={...t,readOnly:this.readOnly,inFindDialog:this.inFindDialog,setQuizMastery:this.setQuizMastery,useForScoring:this.useForScoring}
+null!=this.innerView&&this.innerView.remove()
+this.innerView=(()=>{if(t.model instanceof l["a"])return new xt(t)
+if(t.model instanceof c["a"])return new Lt(t)})()
+this.render()
+if(this.innerView instanceof xt)return this.innerView.screenreaderTitleFocus()}resetContent(){this.innerView=null
+return this.render()}render(){this.attachEvents()
+const t=(()=>{if(this.innerView)return this.innerView.render().el
+if(this.renderInstructions)return this.instructionsTemplate()})()
+this.$el.html(t)
+return this}attachEvents(){if(null==this.innerView)return
+this.innerView.on("deleteSuccess",()=>this.trigger("deleteSuccess"))
+return this.innerView.on("move",t=>this.openDialog(t))}openDialog(t){const e=this.createTree()
+const i=this.createDialog()
+const a={tree:e,window:i,model:t}
+n()(e.$el).appendTo(".form-dialog-content")
+n()(".form-controls .btn[type=button]").bind("click",()=>i.dialog("close"))
+n()(".form-controls .btn[type=submit]").bind("click",t=>{t.preventDefault()
+if(e.activeTree){this.trigger("move",a.model,e.activeTree.model)
+return a.model.on("finishedMoving",()=>i.dialog("close"))}return n.a.flashError(qt.t("No directory is selected, please select a directory before clicking 'move'"))})
+n()(a.window).dialog("option","title",qt.t("Where would you like to move %{title}?",{title:t.get("title")}))
+n()(".ui-dialog :button").blur()
+setTimeout(()=>a.tree.focusOnOpen(),200)}createTree(){var t=new Ft["a"]({rootModelsFinder:new $t,focusStyleClass:"MoveDialog__folderItem--focused",selectedStyleClass:"MoveDialog__folderItem--selected",onlyShowSubtrees:true,onClick(){Ft["a"].prototype.setActiveTree(this,t)}}).render()
+return t}createDialog(){const t=n()(Ut()).dialog({dialogClass:"moveDialog",width:600,height:270,open(){n()(this).show()},close(t){n()(this).remove()}})
+return t}remove(){return null!=this.innerView?this.innerView.off("addSuccess"):void 0}renderNoOutcomeWarning(){null!=this.$el&&this.$el.empty()
+const t=qt.t("You have no outcomes. Click here to go to the outcomes page.")
+return null!=this.$el?this.$el.append(n.a.raw(Yt({addOutcomesUrl:`/${this._contextPath()}/outcomes`,noOutcomesLinkLabel:t}))):void 0}clearNoOutcomeWarning(){return null!=this.$el?this.$el.empty():void 0}}Kt.mixin(Bt["a"])},"7hHL":function(t,e,i){"use strict"
+var a=i("TnsN")
+var n=i("A5yp")
+var s=function(t,e){for(var i in e)o.call(e,i)&&(t[i]=e[i])
+function a(){this.constructor=t}a.prototype=e.prototype
+t.prototype=new a
+t.__super__=e.prototype
+return t},o={}.hasOwnProperty
+e["a"]=function(t){s(e,t)
+function e(){return e.__super__.constructor.apply(this,arguments)}e.prototype.model=n["a"]
+return e}(a["a"])},A5yp:function(t,e,i){"use strict"
+var a=i("HGxv")
+var n=i("Y/W1")
+var s=i.n(n)
+var o=i("mX+G")
+var r=i.n(o)
+var l=i("Oe3c")
+var c,u=function(t,e){for(var i in e)d.call(e,i)&&(t[i]=e[i])
+function a(){this.constructor=t}a.prototype=e.prototype
+t.prototype=new a
+t.__super__=e.prototype
+return t},d={}.hasOwnProperty
+c=Object(a["useScope"])("modelsOutcome")
+e["a"]=function(t){u(e,t)
+function e(){return e.__super__.constructor.apply(this,arguments)}e.prototype.defaults={mastery_points:3,points_possible:5,ratings:[{description:c.t("criteria.exceeds_expectations","Exceeds Expectations"),points:5},{description:c.t("criteria.meets_expectations","Meets Expectations"),points:3},{description:c.t("criteria.does_not_meet_expectations","Does Not Meet Expectations"),points:0}]}
+e.prototype.setMasteryScales=function(){var t
+t=ENV.MASTERY_SCALE.outcome_proficiency.ratings
+return this.set({ratings:t,mastery_points:s.a.find(t,(function(t){return t.mastery})).points,points_possible:Math.max.apply(Math,s.a.map(t,(function(t){return t.points})))})}
+e.prototype.defaultCalculationInt=function(){return{n_mastery:5,decaying_average:65}[this.get("calculation_method")]}
+e.prototype.initialize=function(){var t
+this.get("calculation_method")||this.setDefaultCalcSettings()
+ENV.ACCOUNT_LEVEL_MASTERY_SCALES&&(null!=(t=ENV.MASTERY_SCALE)?t.outcome_proficiency:void 0)&&this.setMasteryScales()
+this.on("change:calculation_method",(i=this,function(t,e){return t.set({calculation_int:i.defaultCalculationInt()})}))
+var i
+return e.__super__.initialize.apply(this,arguments)}
+e.prototype.setDefaultCalcSettings=function(){return this.set({calculation_method:"decaying_average",calculation_int:"65"})}
+e.prototype.calculationMethodContent=function(){return new l["a"](this)}
+e.prototype.calculationMethods=function(){return this.calculationMethodContent().toJSON()}
+e.prototype.name=function(){return this.get("title")}
+e.prototype.canManage=function(){return this.get("can_edit")||this.canManageInContext()}
+e.prototype.canManageInContext=function(){var t,e,i
+return"Course"===(null!=(t=ENV.ROOT_OUTCOME_GROUP)?t.context_type:void 0)&&(null!=(e=ENV.PERMISSIONS)?e.manage_outcomes:void 0)&&(null!=(i=ENV.current_user_roles)?i.includes("admin"):void 0)}
+e.prototype.isNative=function(){return this.outcomeLink&&this.get("context_id")===this.outcomeLink.context_id&&this.get("context_type")===this.outcomeLink.context_type}
+e.prototype.isAbbreviated=function(){return!this.has("description")}
+e.prototype.parse=function(t){if(t.outcome){this.outcomeLink=t
+this.outcomeGroup=t.outcome_group
+return t.outcome}return t}
+e.prototype.present=function(){return s.a.extend({},this.toJSON(),this.calculationMethodContent().present())}
+e.prototype.setUrlTo=function(t){return this.url=function(){switch(t){case"add":return this.outcomeGroup.outcomes_url
+case"edit":return this.get("url")
+case"delete":return this.outcomeLink.url}}.call(this)}
+e.prototype.save=function(t,i){if(ENV.ACCOUNT_LEVEL_MASTERY_SCALES){this.unset("mastery_points")
+this.unset("points_possible")
+this.unset("ratings")
+this.unset("calculation_method")
+this.unset("calculation_int")}return e.__super__.save.apply(this,arguments)}
+return e}(r.a.Model)},E7jo:function(t,e,i){"use strict"
+var a=i("ouhR")
+var n=i.n(a)
+i("MIhX")
+i("dJId")
+i("dGUw")
+i("oa+I")
+n.a.widget("ui.droppable",{version:"@VERSION",widgetEventPrefix:"drop",options:{accept:"*",activeClass:false,addClasses:true,greedy:false,hoverClass:false,scope:"default",tolerance:"intersect"},_create:function(){var t=this.options,e=t.accept
+this.isover=0
+this.isout=1
+this.accept=n.a.isFunction(e)?e:function(t){return t.is(e)}
+this.proportions={width:this.element[0].offsetWidth,height:this.element[0].offsetHeight}
+n.a.ui.ddmanager.droppables[t.scope]=n.a.ui.ddmanager.droppables[t.scope]||[]
+n.a.ui.ddmanager.droppables[t.scope].push(this)
+t.addClasses&&this.element.addClass("ui-droppable")},_destroy:function(){var t=n.a.ui.ddmanager.droppables[this.options.scope]
+for(var e=0;e<t.length;e++)t[e]==this&&t.splice(e,1)
+this.element.removeClass("ui-droppable ui-droppable-disabled")},_setOption:function(t,e){"accept"==t&&(this.accept=n.a.isFunction(e)?e:function(t){return t.is(e)})
+n.a.Widget.prototype._setOption.apply(this,arguments)},_activate:function(t){var e=n.a.ui.ddmanager.current
+this.options.activeClass&&this.element.addClass(this.options.activeClass)
+e&&this._trigger("activate",t,this.ui(e))},_deactivate:function(t){var e=n.a.ui.ddmanager.current
+this.options.activeClass&&this.element.removeClass(this.options.activeClass)
+e&&this._trigger("deactivate",t,this.ui(e))},_over:function(t){var e=n.a.ui.ddmanager.current
+if(!e||(e.currentItem||e.element)[0]==this.element[0])return
+if(this.accept.call(this.element[0],e.currentItem||e.element)){this.options.hoverClass&&this.element.addClass(this.options.hoverClass)
+this._trigger("over",t,this.ui(e))}},_out:function(t){var e=n.a.ui.ddmanager.current
+if(!e||(e.currentItem||e.element)[0]==this.element[0])return
+if(this.accept.call(this.element[0],e.currentItem||e.element)){this.options.hoverClass&&this.element.removeClass(this.options.hoverClass)
+this._trigger("out",t,this.ui(e))}},_drop:function(t,e){var i=e||n.a.ui.ddmanager.current
+if(!i||(i.currentItem||i.element)[0]==this.element[0])return false
+var a=false
+this.element.find(":data(droppable)").not(".ui-draggable-dragging").each((function(){var t=n.a.data(this,"droppable")
+if(t.options.greedy&&!t.options.disabled&&t.options.scope==i.options.scope&&t.accept.call(t.element[0],i.currentItem||i.element)&&n.a.ui.intersect(i,n.a.extend(t,{offset:t.element.offset()}),t.options.tolerance)){a=true
+return false}}))
+if(a)return false
+if(this.accept.call(this.element[0],i.currentItem||i.element)){this.options.activeClass&&this.element.removeClass(this.options.activeClass)
+this.options.hoverClass&&this.element.removeClass(this.options.hoverClass)
+this._trigger("drop",t,this.ui(i))
+return this.element}return false},ui:function(t){return{draggable:t.currentItem||t.element,helper:t.helper,position:t.position,offset:t.positionAbs}}})
+n.a.ui.intersect=function(t,e,i){if(!e.offset)return false
+var a=(t.positionAbs||t.position.absolute).left,s=a+t.helperProportions.width,o=(t.positionAbs||t.position.absolute).top,r=o+t.helperProportions.height
+var l=e.offset.left,c=l+e.proportions.width,u=e.offset.top,d=u+e.proportions.height
+switch(i){case"fit":return l<=a&&s<=c&&u<=o&&r<=d
+case"intersect":return l<a+t.helperProportions.width/2&&s-t.helperProportions.width/2<c&&u<o+t.helperProportions.height/2&&r-t.helperProportions.height/2<d
+case"pointer":var h=(t.positionAbs||t.position.absolute).left+(t.clickOffset||t.offset.click).left,p=(t.positionAbs||t.position.absolute).top+(t.clickOffset||t.offset.click).top,m=n.a.ui.isOver(p,h,u,l,e.proportions.height,e.proportions.width)
+return m
+case"touch":return(o>=u&&o<=d||r>=u&&r<=d||o<u&&r>d)&&(a>=l&&a<=c||s>=l&&s<=c||a<l&&s>c)
+default:return false}}
+n.a.ui.ddmanager={current:null,droppables:{default:[]},prepareOffsets:function(t,e){var i=n.a.ui.ddmanager.droppables[t.options.scope]||[]
+var a=e?e.type:null
+var s=(t.currentItem||t.element).find(":data(droppable)").andSelf()
+t:for(var o=0;o<i.length;o++){if(i[o].options.disabled||t&&!i[o].accept.call(i[o].element[0],t.currentItem||t.element))continue
+for(var r=0;r<s.length;r++)if(s[r]==i[o].element[0]){i[o].proportions.height=0
+continue t}i[o].visible="none"!=i[o].element.css("display")
+if(!i[o].visible)continue
+"mousedown"==a&&i[o]._activate.call(i[o],e)
+i[o].offset=i[o].element.offset()
+i[o].proportions={width:i[o].element[0].offsetWidth,height:i[o].element[0].offsetHeight}}},drop:function(t,e){var i=false
+n.a.each(n.a.ui.ddmanager.droppables[t.options.scope]||[],(function(){if(!this.options)return
+!this.options.disabled&&this.visible&&n.a.ui.intersect(t,this,this.options.tolerance)&&(i=this._drop.call(this,e)||i)
+if(!this.options.disabled&&this.visible&&this.accept.call(this.element[0],t.currentItem||t.element)){this.isout=1
+this.isover=0
+this._deactivate.call(this,e)}}))
+return i},dragStart:function(t,e){t.element.parentsUntil("body").bind("scroll.droppable",(function(){t.options.refreshPositions||n.a.ui.ddmanager.prepareOffsets(t,e)}))},drag:function(t,e){t.options.refreshPositions&&n.a.ui.ddmanager.prepareOffsets(t,e)
+n.a.each(n.a.ui.ddmanager.droppables[t.options.scope]||[],(function(){if(this.options.disabled||this.greedyChild||!this.visible)return
+var i=n.a.ui.intersect(t,this,this.options.tolerance)
+var a=i||1!=this.isover?i&&0==this.isover?"isover":null:"isout"
+if(!a)return
+var s
+if(this.options.greedy){var o=this.element.parents(":data(droppable):eq(0)")
+if(o.length){s=n.a.data(o[0],"droppable")
+s.greedyChild="isover"==a?1:0}}if(s&&"isover"==a){s["isover"]=0
+s["isout"]=1
+s._out.call(s,e)}this[a]=1
+this["isout"==a?"isover":"isout"]=0
+this["isover"==a?"_over":"_out"].call(this,e)
+if(s&&"isout"==a){s["isout"]=0
+s["isover"]=1
+s._over.call(s,e)}}))},dragStop:function(t,e){t.element.parentsUntil("body").unbind("scroll.droppable")
+t.options.refreshPositions||n.a.ui.ddmanager.prepareOffsets(t,e)}}},KIYd:function(t,e,i){"use strict"
+var a=i("HGxv")
+var n=i("ouhR")
+var s=i.n(n)
+var o=i("Y/W1")
+var r=i.n(o)
+var l=i("mX+G")
+var c=i.n(l)
+i("ESjL")
+var u,d=function(t,e){return function(){return t.apply(e,arguments)}},h=function(t,e){for(var i in e)p.call(e,i)&&(t[i]=e[i])
+function a(){this.constructor=t}a.prototype=e.prototype
+t.prototype=new a
+t.__super__=e.prototype
+return t},p={}.hasOwnProperty
+u=Object(a["useScope"])("dialog")
+e["a"]=function(t){h(e,t)
+function e(){this.cancel=d(this.cancel,this)
+return e.__super__.constructor.apply(this,arguments)}e.prototype.initialize=function(){e.__super__.initialize.apply(this,arguments)
+this.initDialog()
+return this.setElement(this.dialog)}
+e.prototype.defaultOptions=function(){return{autoOpen:false,width:420,resizable:false,buttons:[],destroy:false}}
+e.prototype.initDialog=function(){var t
+t=r.a.extend({},this.defaultOptions(),{buttons:[{text:u.t("#buttons.cancel","Cancel"),class:"cancel_button",click:(e=this,function(t){return e.cancel(t)})},{text:u.t("#buttons.update","Update"),class:"btn-primary",click:function(t){return function(e){return t.update(e)}}(this)}]},r.a.result(this,"dialogOptions"))
+var e
+this.dialog=s()('<div id="'+t.id+'"></div>').appendTo("body").dialog(t)
+t.containerId&&this.dialog.parent().attr("id",t.containerId)
+s()(".ui-resizable-handle").attr("aria-hidden",true)
+return this.dialog}
+e.prototype.show=function(){return this.dialog.dialog("open")}
+e.prototype.close=function(){return this.options.destroy?this.dialog.dialog("destroy"):this.dialog.dialog("close")}
+e.prototype.update=function(t){throw"Not yet implemented"}
+e.prototype.cancel=function(t){t.preventDefault()
+return this.close()}
+return e}(c.a.View)},Oe3c:function(t,e,i){"use strict"
+i.d(e,"a",(function(){return d}))
+var a=i("Y/W1")
+var n=i.n(a)
+var s=i("HGxv")
+var o=i("hnvJ")
+const r=Object(s["useScope"])("CalculationMethodContent")
+n.a.mixin({sum:(t,e=null,i=0)=>n.a.reduce(t,(t,i)=>(null!=e?e(i):i)+t,i)})
+class l{constructor(t,e){this.weight=t
+this.range=e
+this.rest=this.range.slice(0,-1)
+this.last=n.a.last(this.range)}value(){const t=n.a.sum(this.rest)/this.rest.length*this.toPercentage(this.remainder())+this.last*this.toPercentage(this.weight)
+return Math.round(100*t)/100}remainder(){return 100-this.weight}toPercentage(t){return t/100}}class c{constructor(t,e,i){this.n=t
+this.mastery_points=e
+this.range=i}aboveMastery(){return n.a.filter(this.range,t=>t>=this.mastery_points)}value(){return null!=this.mastery_points&&this.aboveMastery().length>=this.n?Math.round(n.a.sum(this.aboveMastery())/this.aboveMastery().length*100)/100:r.t("N/A")}}class u{constructor(t){this.range=t}value(){return this.range.length>0?Math.round(n.a.sum(this.range)/this.range.length*100)/100:r.t("N/A")}}class d{constructor(t){n.a.each(["calculation_method","calculation_int","mastery_points","is_individual_outcome"],e=>this[e]=null!=t.get?t.get(e):t[e])}decayingAverage(){return new l(this.calculation_int,this.exampleScoreIntegers()).value()}exampleScoreIntegers(){return[1,4,2,3,5,3,6,1,4,2,3,5,3,6]}nMastery(){return new c(this.calculation_int,this.mastery_points,this.exampleScoreIntegers()).value()}average(t){return new u(t).value()}present(){return this.toJSON()[this.calculation_method]}toJSON(){const t=ENV.OUTCOME_AVERAGE_CALCULATION
+const e=this.is_individual_outcome?{decaying_average:{method:r.t("Decaying Average - %{recentInt}%/%{remainderInt}%",{recentInt:this.calculation_int,remainderInt:100-this.calculation_int}),calculationIntLabel:r.t("% weighting for last item"),calculationIntDescription:r.t("must be between 1 and 99")},n_mastery:{calculationIntLabel:r.t("# of times"),calculationIntDescription:r.t("must be between 1 and 10")},latest:{method:r.t("Most Recent Score")},highest:{exampleScores:this.exampleScoreIntegers().join(", "),exampleResult:o["a"].outcomeScore(n.a.max(this.exampleScoreIntegers()))},average:{method:r.t("Average")}}:{decaying_average:{method:r.t("%{recentInt}/%{remainderInt} Decaying Average",{recentInt:this.calculation_int,remainderInt:100-this.calculation_int}),calculationIntLabel:r.t("Last Item: "),calculationIntDescription:r.t("Between 1% and 99%")},n_mastery:{calculationIntLabel:r.t("Items: "),calculationIntDescription:r.t("Between 1 and 10")},latest:{method:r.t("Latest Score")},highest:{exampleScores:this.exampleScoreIntegers().slice(0,4).join(", "),exampleResult:o["a"].outcomeScore(n.a.max(this.exampleScoreIntegers().slice(0,4)))},average:{method:r.t("Average")}}
+return{decaying_average:{method:e.decaying_average.method,friendlyCalculationMethod:r.t("Decaying Average"),calculationIntLabel:e.decaying_average.calculationIntLabel,calculationIntDescription:e.decaying_average.calculationIntDescription,exampleText:r.t("Most recent result counts as %{calculation_int} of mastery weight, average of all other results count as %{remainder} of weight. If there is only one result, the single score will be returned.",{calculation_int:r.n(this.calculation_int,{percentage:true}),remainder:r.n(100-this.calculation_int,{percentage:true})}),exampleScores:this.exampleScoreIntegers().join(", "),exampleResult:o["a"].outcomeScore(this.decayingAverage()),defaultInt:65,validRange:[1,99]},n_mastery:{method:r.t({one:"Achieve mastery one time",other:"Achieve mastery %{count} times"},{count:this.calculation_int}),friendlyCalculationMethod:r.t("n Number of Times"),calculationIntLabel:e.n_mastery.calculationIntLabel,calculationIntDescription:e.n_mastery.calculationIntDescription,exampleText:r.t({one:"Must achieve mastery at least one time. Scores above mastery will be averaged to calculate final score.",other:"Must achieve mastery at least %{count} times. Scores above mastery will be averaged to calculate final score."},{count:this.calculation_int}),exampleScores:this.exampleScoreIntegers().join(", "),exampleResult:o["a"].outcomeScore(this.nMastery()),defaultInt:5,validRange:[1,10]},latest:{method:e.latest.method,friendlyCalculationMethod:r.t("Most Recent Score"),exampleText:r.t("Mastery score reflects the most recent graded assignment or quiz."),exampleScores:this.exampleScoreIntegers().slice(0,4).join(", "),exampleResult:o["a"].outcomeScore(n.a.last(this.exampleScoreIntegers().slice(0,4)))},highest:{method:r.t("Highest Score"),friendlyCalculationMethod:r.t("Highest Score"),exampleText:r.t("Mastery score reflects the highest score of a graded assignment or quiz."),exampleScores:e.highest.exampleScores,exampleResult:e.highest.exampleResult},...t&&{average:{method:e.average.method,friendlyCalculationMethod:r.t("Average"),exampleText:r.t("Central value in a set of results. Calculated by dividing the sum of all item scores by the number of scores."),exampleWarning:r.t("Average is not a good fit for most outcomes-based or mastery-based learning use cases because students may need time to reach mastery of an outcome and early poorer performance can bring down an average."),exampleScores:this.exampleScoreIntegers().slice(0,7).join(", "),exampleResult:o["a"].outcomeScore(this.average(this.exampleScoreIntegers().slice(0,7)))}}}}}},SG4G:function(t,e,i){"use strict"
+i.r(e)
+var a=i("b4Tx")
+var n=i("HGxv")
+var s=i("ouhR")
+var o=i.n(s)
+var r=i("iM/W")
+var l=i("mDLF")
+const c=Object(n["useScope"])("EditRubricPage")
+class u{static initClass(){this.prototype.$els={}
+this.prototype.translations={findOutcome:c.t("titles.find_outcomes","Find Outcomes")}}constructor(){this.onFindOutcome=t=>{t.preventDefault()
+this.dialogCreated||this.createDialog()
+this.$els.dialog.show()
+return this.$els.dialog.$el.find(".alert").focus()}
+this.rootOutcomeGroup=new r["a"](ENV.ROOT_OUTCOME_GROUP)
+this.attachInitialEvent()
+this.dialogCreated=false}attachInitialEvent(){this.$els.rubricWrapper=o()("#rubrics")
+return this.$els.rubricWrapper.on("click","a.find_outcome_link",this.onFindOutcome)}createDialog(){this.$els.dialog=new l["a"]({title:this.translations.findOutcome,selectedGroup:this.rootOutcomeGroup,useForScoring:true,shouldImport:false,disableGroupImport:true,rootOutcomeGroup:this.rootOutcomeGroup})
+this.$els.dialog.on("import",this.onOutcomeImport)
+return this.dialogCreated=true}onOutcomeImport(t){return a["a"].onFindOutcome(t)}}u.initClass()
+document.addEventListener("rubricEditDataReady",t=>{new u
+a["a"].init()})},TZ14:function(t,e,i){"use strict";(function(t){i.d(e,"a",(function(){return d}))
+var a=i("q1tI")
+var n=i.n(a)
+var s=i("i8i4")
+var o=i("Jvcl")
+var r=i("cymJ")
+var l=i("NFDp")
+var c,u
+null!==(c=t)&&void 0!==c&&null!==(u=c.env)&&void 0!==u&&u.BUILD_LOCALE||l["a"].setup({locale:"en",generateId:i("syYy"),missingTranslation:"ignore"})
+function d(t,e,c){Promise.all([i.e(16),i.e(26),i.e(27),i.e(31),i.e(32),i.e(39),i.e(4125)]).then(i.bind(null,"5+Bo")).then(i=>{const u=i.default
+e=Object(r["a"])(e,u)
+l["a"].setup({locale:e.language})
+const d=Object(a["createRef"])()
+Object(s["render"])(n.a.createElement(o["a"],Object.assign({ref:d},e,{handleUnmount:()=>Object(s["unmountComponentAtNode"])(t)})),t,()=>{c&&c(d.current)})}).catch(t=>{console.error("Failed loading RCE",t)})}window&&window.addEventListener("wheel",()=>{})}).call(this,i("8oxB"))},br6r:function(t,e,i){"use strict"
+var a=i("mX+G")
+var n=i.n(a)
+var s=i("RoCN")
+var o=i("ouhR")
+var r=i.n(o)
+var l=i("Y/W1")
+var c=i.n(l)
+var u=i("HGxv")
+i("tHpF")
+i("sXof")
+i("Dhso")
+var d=i("eodz")
+var h=i("4M30")
+var p=i("yuBc")
+function m(t,e=["message"]){const i={...t}
+e.forEach(t=>{if(!i[t])return
+i[t]=Object(p["a"])(i[t])})
+return i}var f,_=function(t,e){return function(){return t.apply(e,arguments)}},g=function(t,e){for(var i in e)v.call(e,i)&&(t[i]=e[i])
+function a(){this.constructor=t}a.prototype=e.prototype
+t.prototype=new a
+t.__super__=e.prototype
+return t},v={}.hasOwnProperty,y=[].slice
+f=Object(u["useScope"])("errors")
+e["a"]=function(t){g(e,t)
+function e(){this.checkUnload=_(this.checkUnload,this)
+this.watchUnload=_(this.watchUnload,this)
+this.onSaveFail=_(this.onSaveFail,this)
+this.onSaveSuccess=_(this.onSaveSuccess,this)
+return e.__super__.constructor.apply(this,arguments)}e.mixin(s["a"])
+e.prototype.tagName="form"
+e.prototype.className="validated-form-view"
+e.prototype.events={submit:"submit"}
+e.prototype.saveOpts={wait:true}
+e.prototype.disableWhileLoadingOpts={}
+e.prototype.submit=function(t,e){var i,a,n,s,o,l,u,h,p
+null==e&&(e=d["d"])
+null!=t&&t.preventDefault()
+this.hideErrors()
+h=this.$el.find("textarea[data-rich_text]").toArray()
+u=true
+h.length>0&&(u=h.map((function(t){return e(r()(t),"checkReadyToGetCode",window.confirm)})).every((function(t){return t})))
+if(!u)return
+a=this.getFormData()
+o=this.validateBeforeSave(a,{})
+if(0===c.a.keys(o).length){s=new r.a.Deferred
+p=this.saveFormData(a)
+p.then(this.onSaveSuccess.bind(this),this.onSaveFail.bind(this))
+p.fail((m=this,function(){s.reject()
+if(m.setFocusAfterError)return m.setFocusAfterError()}))
+this.dontRenableAfterSaveSuccess||p.done((function(){return s.resolve()}))
+this.$el.disableWhileLoading(s,this.disableWhileLoadingOpts)
+h.length>0&&h.forEach((function(t){return e(r()(t),"RCEClosed")}))
+this.trigger("submit")
+return p}n=c.a.map(r()("[data-error-type]"),(function(t){return r()(t).attr("data-error-type")}))
+i=c.a.chain(c.a.keys(o)).reject((function(t){return c.a.includes(n,t)})).value()
+l=i[0]||n[0]
+this.findField(l).focus()
+return window.setTimeout(function(t){return function(){t.showErrors(o)
+return null}}(this),50)
+var m}
+e.prototype.cancel=function(){var t
+t=this.$el.find("textarea[data-rich_text]").toArray()
+return t.forEach((function(t){return Object(d["d"])(r()(t),"RCEClosed")}))}
+e.prototype.getFormData=function(){return m(this.$el.toJSON())}
+e.prototype.saveFormData=function(t){var e,i
+null==t&&(t=null)
+e=this.model
+t||(t=this.getFormData())
+i=this.saveOpts
+return e.save(t,i)}
+e.prototype.validate=function(t){var e,i
+null==t&&(t={})
+t||(t={})
+e=t["data"]||this.getFormData()
+i=this.validateFormData(e,{})
+this.hideErrors()
+this.showErrors(i)
+return 0===i.length}
+e.prototype.validateFormData=function(t){return{}}
+e.prototype.validateBeforeSave=function(t){return this.validateFormData(t)}
+e.prototype.hideErrors=function(){return this.$el.hideErrors()}
+e.prototype.onSaveSuccess=function(t){return this.trigger.apply(this,["success",t].concat(y.call(arguments)))}
+e.prototype.onSaveFail=function(t){var e
+e=this.parseErrorResponse(t)
+e||(e={})
+this.showErrors(e)
+return this.trigger.apply(this,["fail",e].concat(y.call(arguments)))}
+e.prototype.parseErrorResponse=function(t){if(422===t.status)return{authenticity_token:"invalid"}
+try{return r.a.parseJSON(t.responseText).errors}catch(t){t
+return{}}}
+e.prototype.translations=Object(h["b"])({},{required:function(){return f.t("required","Required")},blank:function(){return f.t("blank","Required")},unsaved:function(){return f.t("unsaved_changes","You have unsaved changes.")}})
+e.prototype.fieldSelectors=null
+e.prototype.findField=function(t){var e,i,a
+a=(null!=(i=this.fieldSelectors)?i[t]:void 0)||"[name='"+t+"']"
+e=this.$(a)
+0===e.length&&(e=this.$("[data-error-type='"+t+"']"))
+e.data("rich_text")&&(e=this.findSiblingTinymce(e))
+e.length>1&&(e=e.not("[type=hidden]"))
+return e}
+e.prototype.castJSON=function(t){var e
+if(!c.a.isObject(t))return t
+if(null!=t.toJSON)return t.toJSON()
+e=c.a.clone(t)
+c.a.each(e,(i=this,function(t,a){return e[a]=i.castJSON(t)}))
+var i
+return e}
+e.prototype.original=null
+e.prototype.watchUnload=function(){this.original=this.castJSON(this.getFormData())
+this.unwatchUnload()
+return r()(window).on("beforeunload",this.checkUnload)}
+e.prototype.unwatchUnload=function(){return r()(window).off("beforeunload",this.checkUnload)}
+e.prototype.checkUnload=function(){var t
+t=this.castJSON(this.getFormData())
+if(!c.a.isEqual(this.original,t))return this.translations.unsaved}
+return e}(n.a.View)},cymJ:function(t,e,i){"use strict"
+var a=i("7Jtz")
+e["a"]=function(t,e){const i=t.editorOptions(e)
+const n=Object(a["a"])(t.mirroredAttrs,i)
+return{...t,editorOptions:n,tinymce:e}}},"iM/W":function(t,e,i){"use strict"
+var a=i("mX+G")
+var n=i.n(a)
+var s=i("7hHL")
+var o=i("TnsN")
+var r,l,c=function(t,e){for(var i in e)u.call(e,i)&&(t[i]=e[i])
+function a(){this.constructor=t}a.prototype=e.prototype
+t.prototype=new a
+t.__super__=e.prototype
+return t},u={}.hasOwnProperty
+r=function(t){c(e,t)
+function e(){return e.__super__.constructor.apply(this,arguments)}e.prototype.initialize=function(t){this.setUpOutcomesAndGroupsIfNeeded()
+return e.__super__.initialize.apply(this,arguments)}
+e.prototype.name=function(){return this.get("title")}
+e.prototype.isAbbreviated=function(){return!this.has("description")}
+e.prototype.setUrlTo=function(t){return this.url=function(){switch(t){case"add":case"move":return this.get("parent_outcome_group").subgroups_url
+case"edit":case"delete":return this.get("url")}}.call(this)}
+e.prototype.setUpOutcomesAndGroupsIfNeeded=function(){this.outcomeGroups||(this.outcomeGroups=new l([],{parentGroup:this}))
+if(!this.outcomes)return this.outcomes=new s["a"]([])}
+e.prototype.getSubtrees=function(){return this.outcomeGroups}
+e.prototype.getItems=function(){return this.outcomes}
+e.prototype.expand=function(t,e){var i,a,n,s
+null==t&&(t=false)
+null==e&&(e={})
+this.isExpanded=true
+this.trigger("expanded")
+if(this.expandDfd||t)return $.when()
+this.isExpanding=true
+this.trigger("beginexpanding")
+this.expandDfd=$.Deferred().done((o=this,function(){o.isExpanding=false
+return o.trigger("endexpanding")}))
+var o
+0!==this.get("outcomeGroups_count")&&(i=null!=(n=this.outcomeGroups)?n.fetch():void 0)
+0===this.get("outcomes_count")||e.onlyShowSubtrees||(a=null!=(s=this.outcomes)?s.fetch():void 0)
+return $.when(i,a).done(this.expandDfd.resolve)}
+e.prototype.collapse=function(){this.isExpanded=false
+return this.trigger("collapsed")}
+e.prototype.toggle=function(t){return this.isExpanded?this.collapse():this.expand(false,t)}
+return e}(n.a.Model)
+l=function(t){c(e,t)
+function e(){return e.__super__.constructor.apply(this,arguments)}e.optionProperty("parentGroup")
+e.prototype.model=r
+e.prototype.url=function(){return this.parentGroup.attributes.subgroups_url}
+return e}(o["a"])
+e["a"]=r},mDLF:function(t,e,i){"use strict"
+i.d(e,"a",(function(){return b}))
+var a=i("HGxv")
+var n=i("ouhR")
+var s=i.n(n)
+var o=i("iM/W")
+var r=i("KK2i")
+var l=i("KIYd")
+var c=i("40OP")
+var u=i("56aU")
+var d=i("2l0H")
+var h=i("3O+N")
+var p=i.n(h)
+i("BGrI")
+var m=p.a.default
+var f=m.template,_=m.templates=m.templates||{}
+var g="/work/canvas-deploy/generated/ui/shared/outcomes/jst/findInstructions"
+_[g]=f((function(t,e,i,a,n){this.compilerInfo=[4,">= 1.0.0"]
+i=this.merge(i,t.helpers)
+n=n||{}
+var s,o,r="",l=i.helperMissing,c=this.escapeExpression
+r+='<div class="wrapper">\n  <h2 class="title">\n    '+c((s=i.t||e&&e.t,o={hash:{scope:"outcomes.find_instructions"},data:n},s?s.call(e,"instructions.find.title","Finding Outcomes",o):l.call(e,"t","instructions.find.title","Finding Outcomes",o)))+'\n  </h2>\n  <div class="description">\n    '+c((s=i.t||e&&e.t,o={hash:{w0:"<p>$1</p>",scope:"outcomes.find_instructions"},data:n},s?s.call(e,"instructions.find.description","*Outcomes created by your institution, or state can be accessed here. Just like in your course, the panel to the left will allow you to navigate between existing outcomes. Once you have found the outcome or outcome group you wish to use, click the import button below to add it to your course.*",o):l.call(e,"t","instructions.find.description","*Outcomes created by your institution, or state can be accessed here. Just like in your course, the panel to the left will allow you to navigate between existing outcomes. Once you have found the outcome or outcome group you wish to use, click the import button below to add it to your course.*",o)))+"\n  </div>\n</div>\n"
+return r}))
+var v=_[g]
+i("r2Yr")
+i("sXof")
+const y=Object(a["useScope"])("outcomesFindDialog")
+class b extends l["a"]{dialogOptions(){return{id:"import_dialog",title:this.title,width:1e3,resizable:true,close(){s()(".find_outcome").focus()},buttons:[{text:y.t("#buttons.cancel","Cancel"),click:t=>this.cancel(t)},{text:y.t("#buttons.import","Import"),class:"btn-primary",click:t=>this.import(t)}]}}initialize(t){this.selectedGroup=t.selectedGroup
+this.title=t.title
+this.shouldImport=false!==t.shouldImport
+this.disableGroupImport=t.disableGroupImport
+super.initialize(...arguments)
+this.render()
+this.dialog.parent().find(".ui-dialog-buttonpane").css("margin-top",0)
+this.sidebar=new c["a"]({el:this.$el.find(".outcomes-sidebar .wrapper"),directoryView:t.directoryView,rootOutcomeGroup:t.rootOutcomeGroup,readOnly:true,inFindDialog:true})
+this.content=new u["a"]({el:this.$el.find(".outcomes-content"),instructionsTemplate:v,readOnly:true,inFindDialog:true,setQuizMastery:t.setQuizMastery,useForScoring:t.useForScoring})
+this.sidebar.on("select",this.content.show.bind(this.content))
+this.sidebar.on("select",this.showOrHideImport.bind(this))
+return this.showOrHideImport()}updateSelection(t){return this.selectedGroup=t}import(t){t.preventDefault()
+const e=this.sidebar.selectedModel()
+this.content.setQuizMastery&&(e.quizMasteryLevel=parseFloat(this.$el.find("#outcome_mastery_at").val())||0)
+this.content.useForScoring&&(e.useForScoring=this.$el.find("#outcome_use_for_scoring").prop("checked"))
+if(e.get("dontImport"))return alert(y.t("dont_import","This group cannot be imported."))
+if(!this.shouldImport){this.trigger("import",e)
+this.close()
+return}if(confirm(this.confirmText(e))){let t,i
+if(e instanceof o["a"]){i=this.selectedGroup.get("import_url")
+const a=new r["a"]
+t=s.a.ajaxJSON(i,"POST",{source_outcome_group_id:e.get("id"),async:true}).pipe(t=>{a.set("url",t.url)
+a.poll()
+return a.pollDfd}).pipe(()=>s.a.ajaxJSON(a.get("results").outcome_group_url,"GET"))}else{i=this.selectedGroup.get("outcomes_url")
+t=s.a.ajaxJSON(i,"POST",{outcome_id:e.get("id")})}this.$el.disableWhileLoading(t)
+return s.a.when(t).done((t,i,a)=>{const n=e.clone()
+if(n instanceof o["a"])n.set(t)
+else{n.outcomeLink={...e.outcomeLink}
+n.outcomeGroup=t.outcome_group
+n.outcomeLink.url=t.url
+n.set({context_id:t.context_id,context_type:t.context_type})}this.trigger("import",n)
+this.close()
+return s.a.flashMessage(y.t("flash.importSuccess","Import successful"))}).fail(()=>s.a.flashError(y.t("flash.importError","An error occurred while importing. Please try again later.")))}}render(){this.$el.html(Object(d["a"])({skipToolbar:true}))
+return this}showOrHideImport(){const t=this.sidebar.selectedModel()
+let e=true;(!t||t.get("dontImport")||t&&t instanceof o["a"]&&this.disableGroupImport)&&(e=false)
+s()(".ui-dialog-buttonpane .btn-primary").toggle(e)}confirmText(t){const e=this.selectedGroup.get("title")||y.t("top_level","%{context} Top Level",{context:this.selectedGroup.get("context_type")})
+return t instanceof o["a"]?y.t("confirm.import_group",'Import group "%{group}" to group "%{target}"?',{group:t.get("title"),target:e}):y.t("confirm.import_outcome",'Import outcome "%{outcome}" to group "%{target}"?',{outcome:t.get("title"),target:e})}}},oBik:function(t,e,i){"use strict"
+i.d(e,"a",(function(){return l}))
+i.d(e,"d",(function(){return c}))
+i.d(e,"b",(function(){return u}))
+i.d(e,"c",(function(){return d}))
+var a=i("0T/Z")
+var n=i("TZ14")
+var s=i("n/1O")
+var o=i("k3+9")
+var r=i("ErZx")
+const l=r["a"]
+function c(t,e,i){const s=Object(a["a"])(e.language)
+"en"===s?Object(n["a"])(t,e,i):Object(o["a"])(s).then(()=>Object(n["a"])(t,e,i)).catch(a=>{console.error("Failed loading the language file for",s,"RCE is falling back to English.\n Cause:",a)
+Object(n["a"])(t,e,i)})}function u(t){return Object(s["b"])(t)}function d(t){return Object(s["c"])(t)}},szPd:function(t,e,i){"use strict"
+var a=i("Y/W1")
+var n=i.n(a)
+var s=i("ouhR")
+var o=i.n(s)
+var r=i("mX+G")
+var l=i.n(r)
+var c=i("3O+N")
+var u=i.n(c)
+i("HGxv")
+i("BGrI")
+var d=i("dbrX")
+var h=u.a.default
+var p=h.template,m=h.templates=h.templates||{}
+var f="/work/canvas-deploy/generated/ui/shared/pagination/jst/PaginatedView"
+m[f]=p((function(t,e,i,a,n){this.compilerInfo=[4,">= 1.0.0"]
+i=this.merge(i,t.helpers)
+n=n||{}
+var s,o,r="",l=i.helperMissing,c=this.escapeExpression
+r+='<div class="paginatedView-loading" role="alert" aria-live="assertive">\n    <span>'+c((s=i.t||e&&e.t,o={hash:{scope:"paginated_view"},data:n},s?s.call(e,"loading_more_results","Loading more results",o):l.call(e,"t","loading_more_results","Loading more results",o)))+"</span>\n</div>\n"
+return r}))
+d["a"].loadStylesheetForJST({id:"2c",bundle:"jst/PaginatedView"})
+var _=m[f]
+var g=function(t,e){for(var i in e)v.call(e,i)&&(t[i]=e[i])
+function a(){this.constructor=t}a.prototype=e.prototype
+t.prototype=new a
+t.__super__=e.prototype
+return t},v={}.hasOwnProperty
+e["a"]=function(t){g(e,t)
+function e(){return e.__super__.constructor.apply(this,arguments)}e.prototype.paginationLoaderTemplate=_
+e.prototype.paginationScrollContainer=window
+e.prototype.distanceTillFetchNextPage=100
+e.prototype.initialize=function(t){var i
+i=e.__super__.initialize.call(this,t)
+this.fetchOptions=t.fetchOptions
+this.bindPaginationEvents()
+this.paginationStopped=false
+return i}
+e.prototype.render=function(){var t
+t=e.__super__.render.apply(this,arguments)
+this.collection.fetchingNextPage&&this.showPaginationLoader()
+this.startPaginationListener()
+return t}
+e.prototype.showPaginationLoader=function(){null==this.$paginationLoader&&(this.$paginationLoader=o()(this.paginationLoaderTemplate()))
+return this.placePaginationLoader()}
+e.prototype.placePaginationLoader=function(){var t
+return null!=(t=this.$paginationLoader)?t.insertAfter(this.el):void 0}
+e.prototype.hidePaginationLoader=function(){var t
+return null!=(t=this.$paginationLoader)?t.remove():void 0}
+e.prototype.distanceToBottom=function(){var t,e
+t=o()(this.paginationScrollContainer)
+e=t[0]===window?o()(document).height():t[0].scrollHeight
+return e-t.scrollTop()-t.height()}
+e.prototype.startPaginationListener=function(){var t
+if(this.paginationStopped)return
+t=o.a.proxy(this.fetchNextPageIfNeeded,this)
+o()(this.paginationScrollContainer).on("scroll.pagination:"+this.cid,t)
+o()(this.paginationScrollContainer).on("resize.pagination:"+this.cid,t)
+return this.fetchNextPageIfNeeded()}
+e.prototype.stopPaginationListener=function(){this.paginationStopped=true
+return o()(this.paginationScrollContainer).off(".pagination:"+this.cid)}
+e.prototype.fetchNextPageIfNeeded=function(){return setTimeout((t=this,function(){var e
+if(t.collection.fetchingNextPage)return
+if(!t.collection.urls||!t.collection.urls.next){t.collection.length&&t.stopPaginationListener()
+return}e=t.distanceToBottom()<t.distanceTillFetchNextPage||!t.collection.length
+if(o()(t.paginationScrollContainer).is(":visible")&&e)return t.collection.fetch(n.a.extend({page:"next"},t.fetchOptions))}),0)
+var t}
+e.prototype.bindPaginationEvents=function(){this.collection.on("beforeFetch:next",this.showPaginationLoader,this)
+this.collection.on("fetch:next",this.hidePaginationLoader,this)
+return this.collection.on("all",this.fetchNextPageIfNeeded,this)}
+return e}(l.a.View)},yuBc:function(t,e,i){"use strict"
+i.d(e,"a",(function(){return s}))
+var a=i("5+Bo")
+var n=i("oBik")
+function s(t){return(new a["default"].html.Serializer).serialize(new a["default"].html.DomParser({validate:true},o()).parse(t))}function o(){const t=new a["default"].html.Schema
+t.setValidElements(n["a"].valid_elements)
+t.addValidElements(n["a"].extended_valid_elements)
+return t}}}])
+
+//# sourceMappingURL=73-c-6344f6213c.js.map
