@@ -123,7 +123,7 @@ def parse_html(html_file):
 
 def output(all_posts):
 
-    f = open("index.html", "w", encoding = "utf-8")
+    f = open("./../tgs509.html", "w", encoding = "utf-8")
 
     with open("html_templates/html_top.html", "r") as top:
             for line in top.readlines():
