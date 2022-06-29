@@ -11,7 +11,7 @@ csl: chicago-syllabus.csl
 ---
 
 # Devin Johnson (張旭堯)
-Linguist, ESL/EFL Instructor
+Linguist, ESL Instructor
 
 <div id="webaddress">
 <a href="mailto:devinjohnson@u.northwestern.edu">devinjohnson2026@u.northwestern.edu</a>
@@ -82,7 +82,7 @@ __WISCIENCE Summer Research Scholarship, UW-Madison__
 
 ## Talks
 
-## Courses Taught
+## Teaching
 
 ### Northwestern University\
 
@@ -99,23 +99,17 @@ TGS 509: Foundations of American English and Academic Culture (Summer '22)
 LING 570: Shallow Processing Techniques For Natural Language Processing (Fall '20)\
 CLMS Placement Test (Grading)
 
-### Other\
-Private ESL/EFL tutoring for undergraduate-graduate level English
+## Volunteering
+#### South-East Asia Center Chicago\
+Volunteer Tutor
+`2022 - Present`
 
 ## Skills
 
 ### Languages
-
-#### Main\
 English\
 Mandarin Chinese\
 Japanese
-
-#### Side\
-Italian\
-Russian\
-German
-
 
 
 ### Certifications\
