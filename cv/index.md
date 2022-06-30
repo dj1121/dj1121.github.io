@@ -109,7 +109,8 @@ Volunteer Tutor
 ### Languages
 English\
 Mandarin Chinese\
-Japanese
+Japanese\
+German
 
 
 ### Certifications\
