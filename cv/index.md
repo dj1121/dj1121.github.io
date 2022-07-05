@@ -110,7 +110,8 @@ Volunteer Tutor
 English\
 Mandarin Chinese\
 Japanese\
-German
+German\
+Italian
 
 
 ### Certifications\
