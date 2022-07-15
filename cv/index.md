@@ -11,7 +11,7 @@ csl: chicago-syllabus.csl
 ---
 
 # Devin Johnson (張旭堯)
-Linguist, ESL Instructor
+Linguist
 
 <div id="webaddress">
 <a href="mailto:devinjohnson@u.northwestern.edu">devinjohnson2026@u.northwestern.edu</a>
@@ -100,18 +100,17 @@ LING 570: Shallow Processing Techniques For Natural Language Processing (Fall '2
 CLMS Placement Test (Grading)
 
 ## Volunteering
-#### South-East Asia Center Chicago\
-Volunteer Tutor
+#### Vegan Linguists\
+Translator (Chinese -> English)
 `2022 - Present`
 
 ## Skills
 
-### Languages
+### (Current Working) anguages
 English\
 Mandarin Chinese\
 Japanese\
-German\
-Italian
+Swedish
 
 
 ### Certifications\
