@@ -21,7 +21,7 @@ Linguist
 ## Education
 `2021-Present`
 __Ph.D., Linguistics, Northwestern University__\
-Research: Syntax, Psycholinguistics, Acquisition, East Asian Languages\
+Research: Syntactic Theory, Psycholinguistics, Formal Syntax\
 Advisor: Masaya Yoshida
 
 `2019-2021`
@@ -106,7 +106,7 @@ Translator (Chinese -> English)
 
 ## Skills
 
-### (Current Working) anguages
+### (Current Working) Languages
 English\
 Mandarin Chinese\
 Japanese\
