@@ -1,1 +1,0 @@
-pandoc -s -o index.html index.md --citeproc --template .\template.html
