@@ -916,10 +916,10 @@ input, select, textarea {
 				border-radius: 100%;
 				box-shadow: inset 0 0 0 1px #ffffff;
 				display: inline-block;
-				height: 2.25rem;
-				line-height: 2.25rem;
+				height: 2.0rem;
+				line-height: 2.0rem;
 				text-align: center;
-				width: 2.25rem;
+				width: 2.0rem;
 			}
 
 				ul.icons li a:hover {
@@ -1661,3 +1661,80 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+	/* Services */
+
+	.my-services .col-md-6 {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	.service-item {
+		margin-bottom: 10px;
+		padding: 50px;
+		background-color: rgba(250, 250, 250, 0.1);
+		transition: all 0.5s;
+		transform: scale(0.9);
+	}
+
+	.service-item h4 {
+		transition: all 0.5s;
+	}
+
+	.service-item p {
+		transition: all 0.5s;
+	}
+
+	.service-item:hover {
+		background-color: rgba(250, 250, 250, 1);
+	}
+
+	.service-item:hover h4 {
+		color: #1e1e1e;
+	}
+
+	.service-item:hover p {
+		color: #4a4a4a;
+	}
+
+	.service-item .service-icon {
+		width: 70px;
+		height: 70px;
+		display: inline-block;
+		margin-bottom: 30px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		transition: all 0.5s;
+	}
+
+	.service-item .first-service-icon {
+		background-image: url(../../images/syntax_1.png);
+	}
+
+	.service-item:hover .first-service-icon {
+		background-image: url(../../images/syntax_2.png);
+	}
+
+	.service-item .second-service-icon {
+		background-image: url(../../images/translation_1.png);
+	}
+
+	.service-item:hover .second-service-icon {
+		background-image: url(../../images/translation_2.png);
+	}
+
+	.service-item .third-service-icon {
+		background-image: url(../../images/testing_1.png);
+	}
+
+	.service-item:hover .third-service-icon {
+		background-image: url(../../images/testing_2.png);
+	}
+
+	.service-item .fourth-service-icon {
+		background-image: url(../../images/en_1.png);
+	}
+
+	.service-item:hover .fourth-service-icon {
+		background-image: url(../../images/en_2.png);
+	}
